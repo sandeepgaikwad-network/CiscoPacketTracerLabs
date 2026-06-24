@@ -31,6 +31,21 @@ Each lab is provided as a `.pkt` file for practice and simulation in Cisco Packe
 - [BGP Lab](IPv4_Routing/BGP.pkt)  
 [![BGP Topology](images/IPv4_Routing/BGP_thumb.png)](images/IPv4_Routing/BGP.png)
 
+### Static Routing (IPv6)
+- [Static Routing Lab](IPv6_Routing/StaticRouting_IPv6.pkt)  
+[![Static Routing Topology](images/IPv6_Routing/STATIC_ROUTING_IPv6_thumb.png)](images/IPv6_Routing/STATIC_ROUTING_IPv6.png)
+
+### RIPng (IPv6)
+- [RIPng Lab](IPv6_Routing/RIP_IPv6.pkt)  
+[![RIPng Topology](images/IPv6_Routing/RIP_IPv6_thumb.png)](images/IPv6_Routing/RIP_IPv6.png)
+
+### OSPFv3 (IPv6)
+- [OSPFv3 Lab](IPv6_Routing/OSPF_IPv6.pkt)  
+[![OSPFv3 Topology](images/IPv6_Routing/OSPF_IPv6_thumb.png)](images/IPv6_Routing/OSPF_IPv6.png)
+
+### EIGRP for IPv6
+- [EIGRP IPv6 Lab](IPv6_Routing/EIGRP_IPv6.pkt)  
+[![EIGRP IPv6 Topology](images/IPv6_Routing/EIGRP_IPv6_thumb.png)](images/IPv6_Routing/EIGRP_IPv6.png)
 ---
 
 ## 📝 Notes
