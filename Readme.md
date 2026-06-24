@@ -46,6 +46,10 @@ Each lab is provided as a `.pkt` file for practice and simulation in Cisco Packe
 ### EIGRP for IPv6
 - [EIGRP IPv6 Lab](IPv6_Routing/EIGRP_IPv6.pkt)  
 [![EIGRP IPv6 Topology](images/IPv6_Routing/EIGRP_IPv6_thumb.png)](images/IPv6_Routing/EIGRP_IPv6.png)
+
+### IOS Backup with TFTP & FTP
+- [IOS Backup Lab](IOS_Backup/IOS_Backup_with_TFTP&FTP.pkt)  
+[![IOS Backup Topology](images/IOS_Backup/IOS_Backup_with_TFTP&FTP_thumb.png)](images/IOS_Backup/IOS_Backup_with_TFTP&FTP.png)
 ---
 
 ## 📝 Notes
