@@ -70,6 +70,55 @@ Each lab is provided as a `.pkt` file for practice and simulation in Cisco Packe
 - [EIGRP IPv6 Lab](IPv6_Routing/EIGRP_IPv6.pkt)  
 [![EIGRP IPv6 Topology](images/IPv6_Routing/EIGRP_IPv6_thumb.png)](images/IPv6_Routing/EIGRP_IPv6.png)
 
+# Cisco Packet Tracer Labs – Router Security
+
+This folder contains labs demonstrating router security techniques, access control lists (ACLs), authentication, licensing, and VPN configuration.  
+Each lab is provided as a `.pkt` file for practice and simulation in Cisco Packet Tracer.
+
+---
+
+## 📂 Lab Index
+
+### Standard ACL (IPv4 – Named)
+- [Standard ACL IPv4 Named Lab](Router_Security/ACCESS_CONTROL_LIST_STANDARD_IPv4_(NAMED).pkt)  
+[![Standard ACL IPv4 Named Topology](images/Router_Security/ACCESS_CONTROL_LIST_STANDARD_IPv4_(NAMED)_thumb.png)](images/Router_Security/ACCESS_CONTROL_LIST_STANDARD_IPv4_(NAMED).png)
+
+### Standard ACL (IPv4 – Numbered)
+- [Standard ACL IPv4 Numbered Lab](Router_Security/ACCESS_CONTROL_LIST_STANDARD_IPv4_(NUMBERED).pkt)  
+[![Standard ACL IPv4 Numbered Topology](images/Router_Security/ACCESS_CONTROL_LIST_STANDARD_IPv4_(NUMBERED)_thumb.png)](images/Router_Security/ACCESS_CONTROL_LIST_STANDARD_IPv4_(NUMBERED).png)
+
+### Extended ACL (IPv4 – Named)
+- [Extended ACL IPv4 Named Lab](Router_Security/ACCESS_CONTROL_LIST_EXTENDED_IPv4_(NAMED).pkt)  
+[![Extended ACL IPv4 Named Topology](images/Router_Security/ACCESS_CONTROL_LIST_EXTENDED_IPv4_(NAMED)_thumb.png)](images/Router_Security/ACCESS_CONTROL_LIST_EXTENDED_IPv4_(NAMED).png)
+
+### ACL (IPv6)
+- [ACL IPv6 Lab](Router_Security/ACCESS_CONTROL_LIST_IPv6.pkt)  
+[![ACL IPv6 Topology](images/Router_Security/ACCESS_CONTROL_LIST_IPv6_thumb.png)](images/Router_Security/ACCESS_CONTROL_LIST_IPv6.png)
+
+### Basic Router Security
+- [Basic Router Security Lab](Router_Security/BASIC_ROUTER_SECURITY.pkt)  
+[![Basic Router Security Topology](images/Router_Security/BASIC_ROUTER_SECURITY_thumb.png)](images/Router_Security/BASIC_ROUTER_SECURITY.png)
+
+### Enhancing Router Security
+- [Enhancing Router Security Lab](Router_Security/ENHANCING_ROUTER_SECURITY.pkt)  
+[![Enhancing Router Security Topology](images/Router_Security/ENHANCING_ROUTER_SECURITY_thumb.png)](images/Router_Security/ENHANCING_ROUTER_SECURITY.png)
+
+### IOS Licensing
+- [IOS Licensing Lab](Router_Security/IOS_LICENSING.pkt)  
+[![IOS Licensing Topology](images/Router_Security/IOS_LICENSING_thumb.png)](images/Router_Security/IOS_LICENSING.png)
+
+### PPP Authentication
+- [PPP Authentication Lab](Router_Security/PPP_AUTHENTICATION.pkt)  
+[![PPP Authentication Topology](images/Router_Security/PPP_AUTHENTICATION_thumb.png)](images/Router_Security/PPP_AUTHENTICATION.png)
+
+### Router Password Recovery
+- [Router Password Recovery Lab](Router_Security/ROUTER_PASSWORD_RECOVERY.pkt)  
+[![Router Password Recovery Topology](images/Router_Security/ROUTER_PASSWORD_RECOVERY_thumb.png)](images/Router_Security/ROUTER_PASSWORD_RECOVERY.png)
+
+### VPN (GRE)
+- [VPN GRE Lab](Router_Security/VPN(GRE).pkt)  
+[![VPN GRE Topology](images/Router_Security/VPN(GRE)_thumb.png)](images/Router_Security/VPN(GRE).png)
+
 ### Default Routing
 - [Default Routing Lab](NAT/DEFAULT_ROUTING.pkt)  
 [![Default Routing Topology](images/NAT/DEFAULT_ROUTING_thumb.png)](images/NAT/DEFAULT_ROUTING.png)
