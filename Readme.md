@@ -134,8 +134,20 @@ Each lab is provided as a `.pkt` file for practice and simulation in Cisco Packe
 ### IOS Backup with TFTP & FTP
 - [IOS Backup Lab](IOS_Backup/IOS_Backup_with_TFTP&FTP.pkt)  
 [![IOS Backup Topology](images/IOS_Backup/IOS_Backup_with_TFTP&FTP_thumb.png)](images/IOS_Backup/IOS_Backup_with_TFTP&FTP.png)
----
 
+### DHCP Server & Client
+- [DHCP Lab](Router_Services/DHCP_SERVER_CLIENT.pkt)  
+[![DHCP Topology](images/Router_Services/DHCP_SERVER_CLIENT_thumb.png)](images/Router_Services/DHCP_SERVER_CLIENT.png)
+
+### Network Time Protocol (NTP)
+- [NTP Lab](Router_Services/NETWORK_TIME_PROTOCOL_NTP.pkt)  
+[![NTP Topology](images/Router_Services/NETWORK_TIME_PROTOCOL_NTP_thumb.png)](images/Router_Services/NETWORK_TIME_PROTOCOL_NTP.png)
+
+### Syslog
+- [Syslog Lab](Router_Services/SYSLOG.pkt)  
+[![Syslog Topology](images/Router_Services/SYSLOG_thumb.png)](images/Router_Services/SYSLOG.png)
+
+---
 ## 📝 Notes
 - All labs are designed for **IPv4 networks**.
 - File names and image names are standardized for consistency.
