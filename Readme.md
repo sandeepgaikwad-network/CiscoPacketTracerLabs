@@ -3,18 +3,38 @@
 This folder contains labs demonstrating different IPv4 routing protocols and techniques.  
 Each lab is provided as a `.pkt` file for practice and simulation in Cisco Packet Tracer.
 
+---
+
 ## 📂 Lab Index
 
-- [Static](IPv4_Routing/Static.pkt)
-- [RIP](IPv4_Routing/RIP.pkt)
-- [OSPF](IPv4_Routing/OSPF.pkt)
-- [OSPF Multi-Area](IPv4_Routing/OSPF_MultiArea.pkt)
-- [EIGRP](IPv4_Routing/EIGRP.pkt)
-- [BGP](IPv4_Routing/BGP.pkt)
+### Static Routing
+- [Static Routing Lab](IPv4_Routing/StaticRouting.pkt)  
+[![Static Routing Topology](images/IPv4_Routing/STATIC_Routing_thumb.png)](images/IPv4_Routing/STATIC_Routing.png)
+
+### RIP
+- [RIP Lab](IPv4_Routing/RIP.pkt)  
+[![RIP Topology](images/IPv4_Routing/RIP_thumb.png)](images/IPv4_Routing/RIP.png)
+
+### OSPF
+- [OSPF Lab](IPv4_Routing/OSPF.pkt)  
+[![OSPF Topology](images/IPv4_Routing/OSPF_thumb.png)](images/IPv4_Routing/OSPF.png)
+
+### OSPF Multi-Area
+- [OSPF Multi-Area Lab](IPv4_Routing/OSPF_MultiArea.pkt)  
+[![OSPF Multi-Area Topology](images/IPv4_Routing/OSPF_MultiArea_thumb.png)](images/IPv4_Routing/OSPF_MultiArea.png)
+
+### EIGRP
+- [EIGRP Lab](IPv4_Routing/EIGRP.pkt)  
+[![EIGRP Topology](images/IPv4_Routing/EIGRP_thumb.png)](images/IPv4_Routing/EIGRP.png)
+
+### BGP
+- [BGP Lab](IPv4_Routing/BGP.pkt)  
+[![BGP Topology](images/IPv4_Routing/BGP_thumb.png)](images/IPv4_Routing/BGP.png)
 
 ---
 
 ## 📝 Notes
 - All labs are designed for **IPv4 networks**.
-- File names are standardized for consistency with folder names.
-- Open these files directly in **Cisco Packet Tracer** to run the simulations.
+- File names and image names are standardized for consistency.
+- Click the thumbnail to view the **full topology diagram**.
+- Open `.pkt` files directly in **Cisco Packet Tracer** to run the simulations.
