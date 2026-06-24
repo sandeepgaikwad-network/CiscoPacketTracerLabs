@@ -6,6 +6,17 @@ Each lab is provided as a `.pkt` file for practice and simulation in Cisco Packe
 ---
 
 ## 📂 Lab Index
+### Initial Router Configuration
+- [Initial Router Configuration Lab](IPv4_Router_Configuration/INITIAL_Router_Configuration.pkt)  
+[![Initial Router Configuration Topology](images/IPv4_Router_Configuration/INITIAL_Router_Configuration_thumb.png)](images/IPv4_Router_Configuration/INITIAL_Router_Configuration.png)
+
+### Network Communication (IPv4)
+- [Network Communication IPv4 Lab](IPv4_Router_Configuration/Network_Communication_IPv4.pkt)  
+[![Network Communication IPv4 Topology](images/IPv4_Router_Configuration/Network_Communication_IPv4_thumb.png)](images/IPv4_Router_Configuration/Network_Communication_IPv4.png)
+
+### WAN Serial Interface Configuration
+- [WAN Serial Interface Lab](IPv4_Router_Configuration/WAN_SERIAL_Interface_Configuration.pkt)  
+[![WAN Serial Interface Topology](images/IPv4_Router_Configuration/WAN_SERIAL_Interface_Configuration_thumb.png)](images/IPv4_Router_Configuration/WAN_SERIAL_Interface_Configuration.png)
 
 ### Static Routing
 - [Static Routing Lab](IPv4_Routing/StaticRouting.pkt)  
