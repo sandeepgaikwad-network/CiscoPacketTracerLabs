@@ -4,7 +4,7 @@
 
 ## 🚨 Instructions Before Starting CCNA v3 Labs
 
-1. All labs are designed to run **only in Cisco Packet Tracer version 7.0**.  
+1. All labs are designed to run **in Cisco Packet Tracer version 7.0 or later**.  
 2. Before starting, disable port labels in Packet Tracer for a cleaner workspace:  
    - Open **Packet Tracer**  
    - Click **Options** from the top menu  
@@ -203,7 +203,7 @@
 ---
 
 ## 📝 Notes
-- All labs are designed for **IPv4 networks**.
+- All labs are designed for **IPv4 & IPv6 networks**.
 - File names and image names are standardized for consistency.
 - Click the thumbnail to view the **full topology diagram**.
-- Open `.pkt` files directly in **Cisco Packet Tracer** to run the simulations.
+- Download and Open `.pkt` files directly in **Cisco Packet Tracer** to run the simulations. (We must have Packet Tracer installed our Computer/Laptop)
