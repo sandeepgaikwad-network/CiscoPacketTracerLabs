@@ -70,6 +70,18 @@ Each lab is provided as a `.pkt` file for practice and simulation in Cisco Packe
 - [EIGRP IPv6 Lab](IPv6_Routing/EIGRP_IPv6.pkt)  
 [![EIGRP IPv6 Topology](images/IPv6_Routing/EIGRP_IPv6_thumb.png)](images/IPv6_Routing/EIGRP_IPv6.png)
 
+### Default Routing
+- [Default Routing Lab](NAT/DEFAULT_ROUTING.pkt)  
+[![Default Routing Topology](images/NAT/DEFAULT_ROUTING_thumb.png)](images/NAT/DEFAULT_ROUTING.png)
+
+### Static NAT
+- [Static NAT Lab](NAT/STATIC_NAT.pkt)  
+[![Static NAT Topology](images/NAT/STATIC_NAT_thumb.png)](images/NAT/STATIC_NAT.png)
+
+### Port Address Translation (PAT)
+- [PAT Lab](NAT/PORT_ADDRESS_TRANSLATION_(PAT).pkt)  
+[![PAT Topology](images/NAT/PORT_ADDRESS_TRANSLATION_(PAT)_thumb.png)](images/NAT/PORT_ADDRESS_TRANSLATION_(PAT).png)
+
 ### IOS Backup with TFTP & FTP
 - [IOS Backup Lab](IOS_Backup/IOS_Backup_with_TFTP&FTP.pkt)  
 [![IOS Backup Topology](images/IOS_Backup/IOS_Backup_with_TFTP&FTP_thumb.png)](images/IOS_Backup/IOS_Backup_with_TFTP&FTP.png)
