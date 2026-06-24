@@ -71,16 +71,20 @@ Each lab is provided as a `.pkt` file for practice and simulation in Cisco Packe
 [![EIGRP IPv6 Topology](images/IPv6_Routing/EIGRP_IPv6_thumb.png)](images/IPv6_Routing/EIGRP_IPv6.png)
 
 ### Standard ACL (IPv4 – Named)
-- [Standard ACL IPv4 Named Lab](Router_Security/ACCESS_CONTROL_LIST_STANDARD_IPv4_(NAMED).pkt)  
-[![Standard ACL IPv4 Named Topology](images/Router_Security/ACCESS_CONTROL_LIST_STANDARD_IPv4_(NAMED)_thumb.png)](images/Router_Security/ACCESS_CONTROL_LIST_STANDARD_IPv4_(NAMED).png)
+- [Standard ACL IPv4 Named Lab](Router_Security/ACCESS_CONTROL_LIST_STANDARD_IPv4_NAMED.pkt)  
+[![Standard ACL IPv4 Named Topology](images/Router_Security/ACCESS_CONTROL_LIST_STANDARD_IPv4_NAMED_thumb.png)](images/Router_Security/ACCESS_CONTROL_LIST_STANDARD_IPv4_NAMED.png)
 
 ### Standard ACL (IPv4 – Numbered)
-- [Standard ACL IPv4 Numbered Lab](Router_Security/ACCESS_CONTROL_LIST_STANDARD_IPv4_(NUMBERED).pkt)  
-[![Standard ACL IPv4 Numbered Topology](images/Router_Security/ACCESS_CONTROL_LIST_STANDARD_IPv4_(NUMBERED)_thumb.png)](images/Router_Security/ACCESS_CONTROL_LIST_STANDARD_IPv4_(NUMBERED).png)
+- [Standard ACL IPv4 Numbered Lab](Router_Security/ACCESS_CONTROL_LIST_STANDARD_IPv4_NUMBERED.pkt)  
+[![Standard ACL IPv4 Numbered Topology](images/Router_Security/ACCESS_CONTROL_LIST_STANDARD_IPv4_NUMBERED_thumb.png)](images/Router_Security/ACCESS_CONTROL_LIST_STANDARD_IPv4_NUMBERED.png)
+
+### Extended ACL (IPv4 – Numbered)
+- [Extended ACL IPv4 Numbered Lab](Router_Security/ACCESS_CONTROL_LIST_EXTENDED_IPv4_NUMBERED.pkt)  
+[![Extended ACL IPv4 Numbered Topology](images/Router_Security/ACCESS_CONTROL_LIST_EXTENDED_IPv4_NUMBERED_thumb.png)](images/Router_Security/ACCESS_CONTROL_LIST_EXTENDED_IPv4_NUMBERED.png)
 
 ### Extended ACL (IPv4 – Named)
-- [Extended ACL IPv4 Named Lab](Router_Security/ACCESS_CONTROL_LIST_EXTENDED_IPv4_(NAMED).pkt)  
-[![Extended ACL IPv4 Named Topology](images/Router_Security/ACCESS_CONTROL_LIST_EXTENDED_IPv4_(NAMED)_thumb.png)](images/Router_Security/ACCESS_CONTROL_LIST_EXTENDED_IPv4_(NAMED).png)
+- [Extended ACL IPv4 Named Lab](Router_Security/ACCESS_CONTROL_LIST_EXTENDED_IPv4_NAMED.pkt)  
+[![Extended ACL IPv4 Named Topology](images/Router_Security/ACCESS_CONTROL_LIST_EXTENDED_IPv4_NAMED_thumb.png)](images/Router_Security/ACCESS_CONTROL_LIST_EXTENDED_IPv4_NAMED.png)
 
 ### ACL (IPv6)
 - [ACL IPv6 Lab](Router_Security/ACCESS_CONTROL_LIST_IPv6.pkt)  
