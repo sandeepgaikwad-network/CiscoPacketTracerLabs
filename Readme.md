@@ -212,10 +212,10 @@
 
 # Cisco Packet Tracer Labs
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/princeweb1/CiscoPacketTracerLabs?style=social)](https://github.com/princeweb1/CiscoPacketTracerLabs/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/princeweb1/CiscoPacketTracerLabs?style=social)](https://github.com/princeweb1/CiscoPacketTracerLabs/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/princeweb1/CiscoPacketTracerLabs)](https://github.com/princeweb1/CiscoPacketTracerLabs/issues)
-[![GitHub last commit](https://img.shields.io/github/last-commit/princeweb1/CiscoPacketTracerLabs)](https://github.com/princeweb1/CiscoPacketTracerLabs/commits/main)
+[![GitHub stars](https://img.shields.io/github/stars/sandeepgaikwad-network/CiscoPacketTracerLabs?style=social)](https://github.com/sandeepgaikwad-network/CiscoPacketTracerLabs/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/sandeepgaikwad-network/CiscoPacketTracerLabs?style=social)](https://github.com/sandeepgaikwad-network/CiscoPacketTracerLabs/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/sandeepgaikwad-network/CiscoPacketTracerLabs)](https://github.com/sandeepgaikwad-network/CiscoPacketTracerLabs/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/sandeepgaikwad-network/CiscoPacketTracerLabs)](https://github.com/sandeepgaikwad-network/CiscoPacketTracerLabs/commits/main)
 [![CCNA Labs](https://img.shields.io/badge/Focus-CCNA-blue)](ca://s?q=CCNA_lab_practice)
 
 
