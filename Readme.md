@@ -5,7 +5,7 @@ Each lab is provided as a `.pkt` file for practice and simulation in Cisco Packe
 
 ## 📂 Lab Index
 
-- [Static Routing](IPv4_Routing/StaticRouting.pkt)
+- [Static](IPv4_Routing/Static.pkt)
 - [RIP](IPv4_Routing/RIP.pkt)
 - [OSPF](IPv4_Routing/OSPF.pkt)
 - [OSPF Multi-Area](IPv4_Routing/OSPF_MultiArea.pkt)
