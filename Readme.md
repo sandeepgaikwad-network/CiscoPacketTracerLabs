@@ -23,9 +23,6 @@
 ---
 
 
-
----
-
 ## 📂 Lab Index
 ### Initial Router Configuration
 - [Initial Router Configuration Lab](IPv4_Router_Configuration/INITIAL_Router_Configuration.pkt)  
