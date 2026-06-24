@@ -147,16 +147,16 @@ Each lab is provided as a `.pkt` file for practice and simulation in Cisco Packe
 [![VLANs Trunking Topology](images/Switching/VLANs_TRUNKING_thumb.png)](images/Switching/VLANs_TRUNKING.png)
 
 ### VLAN Trunking Protocol (VTP)
-- [VTP Lab](Switching/VTP.pkt)  
-[![VTP Topology](images/Switching/VTP_thumb.png)](images/Switching/VTP.png)
+- [VTP Lab](Switching/VLAN_TRUNKING_PROTOCOL_VTP.pkt)  
+[![VTP Topology](images/Switching/VLAN_TRUNKING_PROTOCOL_VTP_thumb.png)](images/Switching/VLAN_TRUNKING_PROTOCOL_VTP.png)
 
 ### Router on a Stick (Inter-VLAN Routing)
-- [Router on a Stick Lab](Switching/ROUTER_ON_A_STICK.pkt)  
-[![Router on a Stick Topology](images/Switching/ROUTER_ON_A_STICK_thumb.png)](images/Switching/ROUTER_ON_A_STICK.png)
+- [Router on a Stick Lab](Switching/ROUTER_ON_A_STICK_INTER_VLAN_ROUTING.pkt)  
+[![Router on a Stick Topology](images/Switching/ROUTER_ON_A_STICK_INTER_VLAN_ROUTING_thumb.png)](images/Switching/ROUTER_ON_A_STICK_INTER_VLAN_ROUTING.png)
 
 ### Spanning Tree Protocol (STP)
-- [STP Lab](Switching/STP.pkt)  
-[![STP Topology](images/Switching/STP_thumb.png)](images/Switching/STP.png)
+- [STP Lab](Switching/SPANNING_TREE_PROTOCOL_STP.pkt)  
+[![STP Topology](images/Switching/SPANNING_TREE_PROTOCOL_STP_thumb.png)](images/Switching/SPANNING_TREE_PROTOCOL_STP.png)
 
 ### PortFast & BPDU Guard
 - [PortFast & BPDU Guard Lab](Switching/PORTFAST_BPDU_GUARD.pkt)  
@@ -171,12 +171,12 @@ Each lab is provided as a `.pkt` file for practice and simulation in Cisco Packe
 [![EtherChannel Topology](images/Switching/ETHERCHANNEL_thumb.png)](images/Switching/ETHERCHANNEL.png)
 
 ### Cisco Discovery Protocol (CDP)
-- [CDP Lab](Switching/CDP.pkt)  
-[![CDP Topology](images/Switching/CDP_thumb.png)](images/Switching/CDP.png)
+- [CDP Lab](Switching/CISCO_DISCOVERY_PROTOCOL_CDP.pkt)  
+[![CDP Topology](images/Switching/CISCO_DISCOVERY_PROTOCOL_CDP_thumb.png)](images/Switching/CISCO_DISCOVERY_PROTOCOL_CDP.png)
 
 ### Dynamic Trunking Protocol (DTP)
-- [DTP Lab](Switching/DTP.pkt)  
-[![DTP Topology](images/Switching/DTP_thumb.png)](images/Switching/DTP.png)
+- [DTP Lab](Switching/DYNAMIC_TRUNKING_PROTOCOL_DTP.pkt)  
+[![DTP Topology](images/Switching/DYNAMIC_TRUNKING_PROTOCOL_DTP_thumb.png)](images/Switching/DYNAMIC_TRUNKING_PROTOCOL_DTP.png)
 
 ---
 
