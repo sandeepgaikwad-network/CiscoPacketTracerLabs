@@ -147,6 +147,46 @@ Each lab is provided as a `.pkt` file for practice and simulation in Cisco Packe
 - [Syslog Lab](Router_Services/SYSLOG.pkt)  
 [![Syslog Topology](images/Router_Services/SYSLOG_thumb.png)](images/Router_Services/SYSLOG.png)
 
+### Switch Initial Configuration
+- [Switch Initial Configuration Lab](Switching/SWITCH_INITIAL_CONFIGURATION.pkt)  
+[![Switch Initial Configuration Topology](images/Switching/SWITCH_INITIAL_CONFIGURATION_thumb.png)](images/Switching/SWITCH_INITIAL_CONFIGURATION.png)
+
+### VLANs Trunking
+- [VLANs Trunking Lab](Switching/VLANs_TRUNKING.pkt)  
+[![VLANs Trunking Topology](images/Switching/VLANs_TRUNKING_thumb.png)](images/Switching/VLANs_TRUNKING.png)
+
+### VLAN Trunking Protocol (VTP)
+- [VTP Lab](Switching/VTP.pkt)  
+[![VTP Topology](images/Switching/VTP_thumb.png)](images/Switching/VTP.png)
+
+### Router on a Stick (Inter-VLAN Routing)
+- [Router on a Stick Lab](Switching/ROUTER_ON_A_STICK.pkt)  
+[![Router on a Stick Topology](images/Switching/ROUTER_ON_A_STICK_thumb.png)](images/Switching/ROUTER_ON_A_STICK.png)
+
+### Spanning Tree Protocol (STP)
+- [STP Lab](Switching/STP.pkt)  
+[![STP Topology](images/Switching/STP_thumb.png)](images/Switching/STP.png)
+
+### PortFast & BPDU Guard
+- [PortFast & BPDU Guard Lab](Switching/PORTFAST_BPDU_GUARD.pkt)  
+[![PortFast & BPDU Guard Topology](images/Switching/PORTFAST_BPDU_GUARD_thumb.png)](images/Switching/PORTFAST_BPDU_GUARD.png)
+
+### Port Security
+- [Port Security Lab](Switching/PORT_SECURITY.pkt)  
+[![Port Security Topology](images/Switching/PORT_SECURITY_thumb.png)](images/Switching/PORT_SECURITY.png)
+
+### EtherChannel
+- [EtherChannel Lab](Switching/ETHERCHANNEL.pkt)  
+[![EtherChannel Topology](images/Switching/ETHERCHANNEL_thumb.png)](images/Switching/ETHERCHANNEL.png)
+
+### Cisco Discovery Protocol (CDP)
+- [CDP Lab](Switching/CDP.pkt)  
+[![CDP Topology](images/Switching/CDP_thumb.png)](images/Switching/CDP.png)
+
+### Dynamic Trunking Protocol (DTP)
+- [DTP Lab](Switching/DTP.pkt)  
+[![DTP Topology](images/Switching/DTP_thumb.png)](images/Switching/DTP.png)
+
 ---
 ## 📝 Notes
 - All labs are designed for **IPv4 networks**.
