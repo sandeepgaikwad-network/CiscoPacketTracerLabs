@@ -207,3 +207,11 @@
 - File names and image names are standardized for consistency.
 - Click the thumbnail to view the **full topology diagram**.
 - Download and Open `.pkt` files directly in **Cisco Packet Tracer** to run the simulations. (We must have Packet Tracer installed our Computer/Laptop)
+
+---
+
+This structure makes your repo look polished and professional, while guiding learners through your labs. Adding **screenshots of topologies** will make it even more engaging.  
+
+Would you like me to also draft a **folder-specific README template** (for example, inside `IPv4/` or `Switching/`) so each lab folder has its own mini guide? That way, users know exactly what each `.pkt` file demonstrates.
+
+---
