@@ -210,8 +210,8 @@
 
 ---
 
-This structure makes your repo look polished and professional, while guiding learners through your labs. Adding **screenshots of topologies** will make it even more engaging.  
+# Cisco Packet Tracer Labs
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Would you like me to also draft a **folder-specific README template** (for example, inside `IPv4/` or `Switching/`) so each lab folder has its own mini guide? That way, users know exactly what each `.pkt` file demonstrates.
 
 ---
