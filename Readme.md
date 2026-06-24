@@ -70,15 +70,6 @@ Each lab is provided as a `.pkt` file for practice and simulation in Cisco Packe
 - [EIGRP IPv6 Lab](IPv6_Routing/EIGRP_IPv6.pkt)  
 [![EIGRP IPv6 Topology](images/IPv6_Routing/EIGRP_IPv6_thumb.png)](images/IPv6_Routing/EIGRP_IPv6.png)
 
-# Cisco Packet Tracer Labs – Router Security
-
-This folder contains labs demonstrating router security techniques, access control lists (ACLs), authentication, licensing, and VPN configuration.  
-Each lab is provided as a `.pkt` file for practice and simulation in Cisco Packet Tracer.
-
----
-
-## 📂 Lab Index
-
 ### Standard ACL (IPv4 – Named)
 - [Standard ACL IPv4 Named Lab](Router_Security/ACCESS_CONTROL_LIST_STANDARD_IPv4_(NAMED).pkt)  
 [![Standard ACL IPv4 Named Topology](images/Router_Security/ACCESS_CONTROL_LIST_STANDARD_IPv4_(NAMED)_thumb.png)](images/Router_Security/ACCESS_CONTROL_LIST_STANDARD_IPv4_(NAMED).png)
@@ -188,6 +179,7 @@ Each lab is provided as a `.pkt` file for practice and simulation in Cisco Packe
 [![DTP Topology](images/Switching/DTP_thumb.png)](images/Switching/DTP.png)
 
 ---
+
 ## 📝 Notes
 - All labs are designed for **IPv4 networks**.
 - File names and image names are standardized for consistency.
