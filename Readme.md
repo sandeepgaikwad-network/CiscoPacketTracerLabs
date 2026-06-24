@@ -1,7 +1,28 @@
-# Cisco Packet Tracer Labs – IPv4 Routing
+# CCNA v3 Labs Repository
 
-This folder contains labs demonstrating different IPv4 routing protocols and techniques.  
-Each lab is provided as a `.pkt` file for practice and simulation in Cisco Packet Tracer.
+---
+
+## 🚨 Instructions Before Starting CCNA v3 Labs
+
+1. All labs are designed to run **only in Cisco Packet Tracer version 7.0**.  
+2. Before starting, disable port labels in Packet Tracer for a cleaner workspace:  
+   - Open **Packet Tracer**  
+   - Click **Options** from the top menu  
+   - Select **Preferences**  
+   - Uncheck:  
+     - *Show Device Model Labels*  
+     - *Show Device Name Labels*  
+     - *Always Show Port Labels in Logical Workspace*  
+3. In most lab exercises, PCs are not pre‑configured with IP addresses. Assign IP addresses manually according to the lab setup.
+4. This folder contains labs demonstrating all the concepts of CCNA Routing & Switching.  
+5. Each lab is provided as a `.pkt` file for practice and simulation in Cisco Packet Tracer.
+---
+
+### ✅ Thank you, and enjoy your learning journey!
+
+---
+
+
 
 ---
 
