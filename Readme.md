@@ -18,6 +18,18 @@ Each lab is provided as a `.pkt` file for practice and simulation in Cisco Packe
 - [WAN Serial Interface Lab](IPv4_Router_Configuration/WAN_SERIAL_Interface_Configuration.pkt)  
 [![WAN Serial Interface Topology](images/IPv4_Router_Configuration/WAN_SERIAL_Interface_Configuration_thumb.png)](images/IPv4_Router_Configuration/WAN_SERIAL_Interface_Configuration.png)
 
+### Initial Router Configuration (IPv6)
+- [Initial Router Configuration Lab](IPv6_Router_Configuration/INITIAL_Router_Configuration_IPv6.pkt)  
+[![Initial Router Configuration IPv6 Topology](images/IPv6_Router_Configuration/INITIAL_Router_Configuration_IPv6_thumb.png)](images/IPv6_Router_Configuration/INITIAL_Router_Configuration_IPv6.png)
+
+### Network Communication (IPv6)
+- [Network Communication IPv6 Lab](IPv6_Router_Configuration/Network_Communication_IPv6.pkt)  
+[![Network Communication IPv6 Topology](images/IPv6_Router_Configuration/Network_Communication_IPv6_thumb.png)](images/IPv6_Router_Configuration/Network_Communication_IPv6.png)
+
+### WAN Interface Configuration (IPv6)
+- [WAN Interface IPv6 Lab](IPv6_Router_Configuration/WAN_Interface_Configuration_IPv6.pkt)  
+[![WAN Interface IPv6 Topology](images/IPv6_Router_Configuration/WAN_Interface_Configuration_IPv6_thumb.png)](images/IPv6_Router_Configuration/WAN_Interface_Configuration_IPv6.png)
+
 ### Static Routing
 - [Static Routing Lab](IPv4_Routing/StaticRouting.pkt)  
 [![Static Routing Topology](images/IPv4_Routing/STATIC_Routing_thumb.png)](images/IPv4_Routing/STATIC_Routing.png)
