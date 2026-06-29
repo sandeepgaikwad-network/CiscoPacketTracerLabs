@@ -43,3 +43,16 @@
 ✅ **Covers:** EIGRP configuration, neighbor formation, route learning, troubleshooting
 
 ---
+
+### 🔵 OSPF (Single Area) Lab
+
+- 📄 [Lab Manual](IPv4_Routing/OSPF/README.md)
+- 🧪 [Download PKT](IPv4_Routing/OSPF/OSPF.pkt)
+- 🖼️ [View Topology](IPv4_Routing/OSPF/OSPF.png)
+
+#### 🖼️ Preview
+[![OSPF Routing Lab](IPv4_Routing/OSPF/OSPF.png)](IPv4_Routing/OSPF/README.md)
+
+✅ **Covers:** OSPF configuration (Area 0), neighbor formation, routing table verification, troubleshooting
+
+---
