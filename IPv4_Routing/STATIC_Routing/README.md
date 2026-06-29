@@ -7,8 +7,8 @@ Static routing means routes are **manually configured by the administrator** and
 
 ---
 
-## 🖧 Lab Topology
-![Static Routing Topology](static_routing_topology.png)
+## 🔷 Lab Topology
+![Static Routing Topology](STATIC_Routing.png)
 
 ---
 
