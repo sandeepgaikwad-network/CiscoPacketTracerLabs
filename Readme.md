@@ -22,6 +22,15 @@
 
 ---
 
+# IPv4 Routing Labs
+
+## 📚 Available Labs
+
+### 🔹 Static Routing Lab
+
+👉 IPv4_Routing/STATIC_Routing/README.md
+
+IPv4_Routing/STATIC_Routing/STATIC_Routing_thumb.png
 
 ## 📂 Lab Index
 ### Initial Router Configuration
