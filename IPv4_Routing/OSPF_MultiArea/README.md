@@ -9,12 +9,11 @@ Configure **OSPF Multi-Area routing** using:
 - ✅ Backbone Area (Area 0)
 - ✅ Non-backbone Areas (Area 1 & Area 2)
 - ✅ ABR (Area Border Router) functionality  
+
 Verify **neighbor relationships**, **routing table**, and **connectivity**.
 
 ---
-
 ## 🖼️ Lab Topology
-
 ![OSPF Multi-Area Topology](OSPF_MultiArea.png)
 
 ---
