@@ -16,17 +16,17 @@ BGP is used to exchange routing information between different networks (AS). 【
 
 ## 🌐 Network Design
 
-| Router | LAN Network | AS Number |
-|--------|------------|-----------|
-| CHE    | 192.168.201.0/24 | 100 |
-| HYD    | 192.168.202.0/24 | 200 |
-| BAN    | 192.168.203.0/24 | 300 |
+| Router | Interface| IP Address        |
+|--------|----------|-------------------|
+| CHE    | G0/0     | 192.168.201.1/24  |
+| HYD    | G0/0     | 192.168.202.1/24  |
+| BAN    | G0/0     | 192.168.203.1/24  |
 
-WAN Links:
-
-- CHE ↔ HYD → 172.16.0.0/30  
-- HYD ↔ BAN → 172.17.0.0/30  
-- CHE ↔ BAN → 172.18.0.0/30  
+| Link      | Network        |
+|-----------|----------------|
+| CHE ↔ HYD | 172.16.0.0 /30 |
+| HYD ↔ BAN | 172.17.0.0 /30 |
+| CHE ↔ BAN | 172.18.0.0 /30 |
 
 ---
 
