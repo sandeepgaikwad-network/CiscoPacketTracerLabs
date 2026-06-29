@@ -34,7 +34,8 @@ WAN Links:
 
 ### Configure BGP on Routers
 
-### 🔹 CHE Router (AS 100)
+### 🔴 **CHE Router (AS 100)**
+
 ```bash
 conf t
 router bgp 100
@@ -42,7 +43,7 @@ neighbor 172.16.0.2 remote-as 200
 neighbor 172.18.0.1 remote-as 300
 network 192.168.201.0 mask 0.0.0.255
 
-### 🔹 HYD Router (AS 200)
+### 🔵 **HYD Router (AS 200)**
 
 conf t
 router bgp 200
@@ -50,7 +51,7 @@ neighbor 172.16.0.1 remote-as 100
 neighbor 172.17.0.2 remote-as 300
 network 192.168.202.0 mask 255.255.255.0
 
-### 🔹 BAN Router (AS 300)
+### 🔵 **BAN Router (AS 300)**
 
 conf t
 router bgp 300
