@@ -1,6 +1,7 @@
 # BGP Routing Lab (CCNA)
 
 ## 📌 Objective
+
 Configure Border Gateway Protocol (BGP) between routers belonging to different Autonomous Systems (AS) and verify route exchange.
 
 BGP is used to exchange routing information between different networks (AS). 【1-47791b】
@@ -22,6 +23,7 @@ BGP is used to exchange routing information between different networks (AS). 【
 | BAN    | 192.168.203.0/24 | 300 |
 
 WAN Links:
+
 - CHE ↔ HYD → 172.16.0.0/30  
 - HYD ↔ BAN → 172.17.0.0/30  
 - CHE ↔ BAN → 172.18.0.0/30  
@@ -34,9 +36,9 @@ WAN Links:
 
 ### Configure BGP on Routers
 
+```bash
 ### 🔴 **CHE Router (AS 100)**
 
-```bash
 conf t
 router bgp 100
 neighbor 172.16.0.2 remote-as 200
