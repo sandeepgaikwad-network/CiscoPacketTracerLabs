@@ -9,7 +9,7 @@ BGP is used to exchange routing information between different networks (AS). 【
 
 ## 🖼️ Lab Topology
 
-![BGP Topology](bgp_topology.png)
+![BGP Topology](BGP.png)
 
 ---
 
@@ -28,17 +28,22 @@ WAN Links:
 
 ---
 
-### : Configure BGP on Routers
+## ⚙️ Configuration Steps
+
+---
+
+### Configure BGP on Routers
 
 ### 🔹 CHE Router (AS 100)
-```bash
+
 conf t
 router bgp 100
 neighbor 172.16.0.2 remote-as 200
 neighbor 172.18.0.1 remote-as 300
-network 192.168.201.5.0
+network 192.168.201.0 mask 0.0.0.255
 
 ### 🔹 HYD Router (AS 200)
+
 conf t
 router bgp 200
 neighbor 172.16.0.1 remote-as 100
@@ -46,6 +51,7 @@ neighbor 172.17.0.2 remote-as 300
 network 192.168.202.0 mask 255.255.255.0
 
 ### 🔹 BAN Router (AS 300)
+
 conf t
 router bgp 300
 neighbor 172.17.0.1 remote-as 200
@@ -74,4 +80,3 @@ ping 192.168.203.1
 | BGP state not Established | Verify AS number        |
 | No routes                 | Check `network` command |
 | No ping                   | Check routing table     |
-
