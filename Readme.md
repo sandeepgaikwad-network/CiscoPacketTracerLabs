@@ -10,7 +10,7 @@
 
 ### 🖼️ Preview
 
-[![Static Routing Lab](IPv4_Routing/STATIC_Routing/STATIC_Routing_thumb.png)](IPv4_Routing/STATIC_Routing/README.md)
+[![Static Routing Lab](IPv4_Routing/STATIC_Routing/STATIC_Routing.png)](IPv4_Routing/STATIC_Routing/README.md)
 
 ✅ **Covers:** Static routing, verification, troubleshooting
 
@@ -24,7 +24,7 @@
 
 ### 🖼️ Preview
 
-[![BGP Routing Lab](IPv4_Routing/BGP/BGP_thumb.png)](IPv4_Routing/BGP/README.md)
+[![BGP Routing Lab](IPv4_Routing/BGP/BGP.png)](IPv4_Routing/BGP/README.md)
 
 ✅ **Covers:** BGP configuration, neighbor establishment, route advertisement, troubleshooting
 
@@ -38,7 +38,7 @@
 
 ### 🖼️ Preview
 
-[![EIGRP Routing Lab](IPv4_Routing/EIGRP/EIGRP_thumb.png)](IPv4_Routing/EIGRP/README.md)
+[![EIGRP Routing Lab](IPv4_Routing/EIGRP/EIGRP.png)](IPv4_Routing/EIGRP/README.md)
 
 ✅ **Covers:** EIGRP configuration, neighbor formation, route learning, troubleshooting
 
