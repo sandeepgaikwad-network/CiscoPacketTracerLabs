@@ -14,9 +14,9 @@
 
 ✅ **Covers:** Static routing, verification, troubleshooting
 
-### 🌐 BGP Routing Lab
+---
 
-### 🔗 Quick Access
+### 🌐 BGP Routing Lab
 
 - 📄 [Lab Manual](IPv4_Routing/BGP/README.md)
 - 🧪 [Download PKT](IPv4_Routing/BGP/BGP.pkt)
@@ -28,9 +28,9 @@
 
 ✅ **Covers:** BGP configuration, neighbor establishment, route advertisement, troubleshooting
 
-### ⚡ EIGRP Routing Lab
+---
 
-### 🔗 Quick Access
+### ⚡ EIGRP Routing Lab
 
 - 📄 [Lab Manual](IPv4_Routing/EIGRP/README.md)  
 - 🧪 [Download PKT](IPv4_Routing/EIGRP/EIGRP.pkt)  
@@ -41,3 +41,5 @@
 [![EIGRP Routing Lab](IPv4_Routing/EIGRP/EIGRP_thumb.png)](IPv4_Routing/EIGRP/README.md)
 
 ✅ **Covers:** EIGRP configuration, neighbor formation, route learning, troubleshooting
+
+---
