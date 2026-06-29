@@ -38,7 +38,7 @@ WAN Links:
 
 ```bash
 
-### 🔴 <u>**CHE Router (AS 100)**</u>
+### 🔴 **CHE Router (AS 100)**
 
 conf t
 router bgp 100
@@ -47,7 +47,7 @@ neighbor 172.18.0.1 remote-as 300
 network 192.168.201.0 mask 0.0.0.255
 
 
-### 🔵 <u>**HYD Router (AS 200)**</u>
+### 🔵 **HYD Router (AS 200)**
 
 conf t
 router bgp 200
@@ -56,7 +56,7 @@ neighbor 172.17.0.2 remote-as 300
 network 192.168.202.0 mask 255.255.255.0
 
 
-### 🔵 <u>**BAN Router (AS 300)**</u>
+### 🔵 **BAN Router (AS 300)**
 
 conf t
 router bgp 300
