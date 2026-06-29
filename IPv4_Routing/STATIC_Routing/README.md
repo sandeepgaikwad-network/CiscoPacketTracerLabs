@@ -1,6 +1,7 @@
 # Static Routing Lab (CCNA)
 
 ## 📌 Objective
+
 Configure **static routing manually** between routers and verify end-to-end connectivity between different networks.
 
 Static routing means routes are **manually configured by the administrator** and do not change automatically. 【1-b8790c】
@@ -8,20 +9,21 @@ Static routing means routes are **manually configured by the administrator** and
 ---
 
 ## 🔷 Lab Topology
+
 ![Static Routing Topology](STATIC_Routing.png)
 
 ---
 
 ## 🌐 Network Details
 
-| Router | Interface | IP Address |
-|--------|----------|-----------|
-| CHE    | G0/0     | 192.168.201.1/24 |
-| HYD    | G0/0     | 192.168.202.1/24 |
-| BAN    | G0/0     | 192.168.203.1/24 |
+| Router | Interface| IP Address        |
+|--------|----------|-------------------|
+| CHE    | G0/0     | 192.168.201.1/24  |
+| HYD    | G0/0     | 192.168.202.1/24  |
+| BAN    | G0/0     | 192.168.203.1/24  |
 
-| Link | Network |
-|------|--------|
+| Link      | Network        |
+|-----------|----------------|
 | CHE ↔ HYD | 172.16.0.0 /30 |
 | HYD ↔ BAN | 172.17.0.0 /30 |
 | CHE ↔ BAN | 172.18.0.0 /30 |
@@ -32,8 +34,10 @@ Static routing means routes are **manually configured by the administrator** and
 
 ### Step 1: Configure Interfaces
 
-#### CHE Router
 ```bash
+
+#### CHE Router
+
 conf t
 hostname CHE
 
