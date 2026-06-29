@@ -56,3 +56,16 @@
 ✅ **Covers:** OSPF configuration (Area 0), neighbor formation, routing table verification, troubleshooting
 
 ---
+
+### 🌐 OSPF Multi-Area Routing Lab
+
+- 📘 IPv4_Routing/OSPF_MultiArea/README.md
+- 📦 IPv4_Routing/OSPF_MultiArea/OSPF_MultiArea.pkt
+- 🖼️ IPv4_Routing/OSPF_MultiArea/OSPF_MultiArea.png
+
+### 🖼️ Preview
+IPv4_Routing/OSPF_MultiArea/OSPF_MultiArea.png](IPv4_Routing/OSPF_MultiArea/README.md)
+
+✅ **Covers:** Multi-area OSPF configuration, ABR design, inter-area routing, troubleshooting
+
+---
