@@ -35,7 +35,7 @@ WAN Links:
 ### Configure BGP on Routers
 
 ### 🔹 CHE Router (AS 100)
-
+```bash
 conf t
 router bgp 100
 neighbor 172.16.0.2 remote-as 200
