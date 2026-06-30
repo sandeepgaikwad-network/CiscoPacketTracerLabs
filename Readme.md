@@ -57,15 +57,15 @@
 
 ---
 
-### 🌐 OSPF Multi-Area Routing Lab
+### 🌐 OSPF (Multi-Area) Lab
 
-- 📘 IPv4_Routing/OSPF_MultiArea/README.md
-- 📦 IPv4_Routing/OSPF_MultiArea/OSPF_MultiArea.pkt
-- 🖼️ IPv4_Routing/OSPF_MultiArea/OSPF_MultiArea.png
+- 📄 [Lab Manual](IPv4_Routing/OSPF_MultiArea/README.md)
+- 🧪 [Download PKT](IPv4_Routing/OSPF_MultiArea/OSPF_MultiArea.pkt)
+- 🖼️ [View Topology](IPv4_Routing/OSPF_MultiArea/OSPF_MultiArea.png)
 
 ### 🖼️ Preview
-IPv4_Routing/OSPF_MultiArea/OSPF_MultiArea.png](IPv4_Routing/OSPF_MultiArea/README.md)
+[![OSPF Multi-Area Lab](IPv4_Routing/OSPF_MultiArea/OSPF_MultiArea_thumb.png)](IPv4_Routing/OSPF_MultiArea/README.md)
 
-✅ **Covers:** Multi-area OSPF configuration, ABR design, inter-area routing, troubleshooting
+✅ **Covers:** Multi-area OSPF configuration (Area 0 backbone), ABR setup, inter-area routing, neighbor formation, troubleshooting
 
 ---
