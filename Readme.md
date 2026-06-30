@@ -64,7 +64,7 @@
 - 🖼️ [View Topology](IPv4_Routing/OSPF_MultiArea/OSPF_MultiArea.png)
 
 ### 🖼️ Preview
-[![OSPF Multi-Area Lab](IPv4_Routing/OSPF_MultiArea/OSPF_MultiArea_thumb.png)](IPv4_Routing/OSPF_MultiArea/README.md)
+[![OSPF Multi-Area Lab](IPv4_Routing/OSPF_MultiArea/OSPF_MultiArea.png)](IPv4_Routing/OSPF_MultiArea/README.md)
 
 ✅ **Covers:** Multi-area OSPF configuration (Area 0 backbone), ABR setup, inter-area routing, neighbor formation, troubleshooting
 
