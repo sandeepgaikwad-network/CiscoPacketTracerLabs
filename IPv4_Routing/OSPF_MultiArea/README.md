@@ -13,7 +13,9 @@ Configure **OSPF Multi-Area routing** using:
 Verify **neighbor relationships**, **routing table**, and **connectivity**.
 
 ---
+
 ## 🖼️ Lab Topology
+
 ![OSPF Multi-Area Topology](OSPF_MultiArea.png)
 
 ---
@@ -45,15 +47,16 @@ network 172.18.0.0 0.0.255.255 area 0
 conf t
 router ospf 1
 network 192.168.202.0 0.0.0.255 area 1
-network 172.16.0.0 0.0.0.3 area 0
-network 172.17.0.0 0.0.0.3 area 0
+network 172.16.0.0 0.0.255.255 area 0
+network 172.17.0.0 0.0.255.255 area 0
 
 🔵 BAN Router (Area 2 + Area 0)
 
 conf t
 router ospf 1
 network 192.168.203.0 0.0.0.255 area 2
-network 172.17.0.0 0.0.0.3 area 0
+network 172.17.0.0 0.0.255.255 area 0
+network 172.18.0.0 0.0.255.255 area 0
 
 🔍 Verification
 ✅ Check OSPF Neighbors
