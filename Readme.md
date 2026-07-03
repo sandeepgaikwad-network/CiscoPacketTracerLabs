@@ -20,7 +20,7 @@
 
 - 📄 [Lab Manual](IPv4_Routing/BGP/README.md)
 - 🧪 [Download PKT](IPv4_Routing/BGP/BGP.pkt)
-- 🖼️ [View Topology](IPv4_Routing/BGP/BGP.PNG)
+- 🖼️ [View Topology](IPv4_Routing/BGP/bgp.png)
 
 ### 🖼️ Preview
 
