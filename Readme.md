@@ -24,7 +24,7 @@
 
 ### 🖼️ Preview
 
-[![BGP Routing Lab](IPv4_Routing/BGP/BGP.png)](IPv4_Routing/BGP/README.md)
+[![BGP Routing Lab](IPv4_Routing/BGP/bgp.png)](IPv4_Routing/BGP/README.md)
 
 ✅ **Covers:** BGP configuration, neighbor establishment, route advertisement, troubleshooting
 
