@@ -1,8 +1,8 @@
-🌐 BGP Routing Lab (CCNA)
+# 🔄 BGP Routing Lab (CCNA)
 
-🎯 Objective
+## 🎯 Objective
 
-Configure BGP (Border Gateway Protocol) between routers and verify external routing and neighbor relationships across autonomous systems.
+Configure **BGP (Border Gateway Protocol)** between routers and verify dynamic routing and neighbor relationships.
 
 ## 🖼️ Lab Topology
 
