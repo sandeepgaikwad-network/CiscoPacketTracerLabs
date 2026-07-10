@@ -65,14 +65,10 @@ ping 192.168.203.1
 
 🌍 Real-World Use Case
 ISP interconnections
-
 Multi-AS enterprise networks
-
 External routing between different organizations
 
 🎯 Outcome
 Understood BGP configuration
-
 Verified neighbor relationships
-
 Learned external routing behavior
