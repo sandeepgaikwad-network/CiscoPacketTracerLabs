@@ -22,11 +22,17 @@ Verify **neighbor relationships**, **routing table**, and **connectivity**.
 
 ## 🔷 Network Design
 
-| Router | LAN Network       | Area   |
-|--------|-------------------|--------|
-| CHE    | 192.168.201.0/24  | Area 1 |
-| HYD    | 192.168.202.0/24  | Area 1 |
-| BAN    | 192.168.203.0/24  | Area 2 |
+| Router |   Interface   |  Area  |
+|--------|---------------|--------|
+| CHE    | Gig0/0        | Area 1 |
+| CHE    | Serial 0/0/0  | Area 0 |
+| CHE    | Serial 0/0/1  | Area 0 |
+| HYD    | Gig0/0        | Area 0 |
+| HYD    | Serial 0/0/0  | Area 0 |
+| HYD    | Serial 0/0/1  | Area 0 |
+| BAN    | Gig0/0        | Area 2 |
+| BAN    | Serial 0/0/0  | Area 0 |
+| BAN    | Serial 0/0/1  | Area 0 |
 
 ---
 
