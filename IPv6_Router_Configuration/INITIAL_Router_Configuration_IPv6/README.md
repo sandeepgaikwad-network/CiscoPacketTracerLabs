@@ -8,7 +8,7 @@ Perform the basic initial configuration of a Cisco router, including hostname, i
 
 ## 🖼️ Lab Topology
 
-![INITAL CONFIG Topology](INITIAL_Router_Configuration.png)
+![INITAL CONFIG Topology](INITIAL_Router_Configuration_IPv6.png)
 
 ---
 | Device | Interface |  IPv6 Address    |
