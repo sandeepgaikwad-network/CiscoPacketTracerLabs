@@ -14,6 +14,12 @@ Configure **BGP (Border Gateway Protocol)** between routers and verify dynamic r
 | HYD    | 192.168.202.0/24 |    200    |
 | BAN    | 192.168.203.0/24 |    300    |
 
+---
+
+## ⚙️ Configuration Steps
+
+```bash
+
 ### 🔴 CHE Router (AS 100)
 
 conf t
