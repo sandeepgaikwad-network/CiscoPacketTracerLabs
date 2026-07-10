@@ -52,7 +52,7 @@ network 172.18.0.0 0.0.255.255 area 0
 
 conf t
 router ospf 1
-network 192.168.202.0 0.0.0.255 area 1
+network 192.168.202.0 0.0.0.255 area 0
 network 172.16.0.0 0.0.255.255 area 0
 network 172.17.0.0 0.0.255.255 area 0
 
