@@ -1,8 +1,8 @@
-🔄 RIP Routing Lab (CCNA)
+# 🔄 RIP Routing Lab (CCNA)
 
-🎯 Objective
+## 🎯 Objective
 
-Configure RIP (Routing Information Protocol) between routers and verify dynamic routing, updates, and communication across IPv4 networks.
+Configure **RIP (Routing Information Protocol)** between routers and verify dynamic routing and neighbor relationships.
 
 
 ## 🖼️ Lab Topology
