@@ -56,11 +56,13 @@ show ip ospf neighbor
 
 **Check Routing Table**  
 show ip route  
+
 **✅ Expected: Routes appear with O (OSPF)*
 
 **🌐 Test Connectivity**  
 ping 192.168.202.1    
 ping 192.168.203.1  
+
 **✅ All networks reachable*
 
 ## 🛠️ Troubleshooting
