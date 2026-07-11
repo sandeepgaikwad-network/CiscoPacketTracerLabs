@@ -10,7 +10,7 @@ Configure SSH access on the HYD router to secure remote management and verify co
 
 ## ⚙️Configuration Steps
 
-# 🔴 HYD Router
+**HYD Router**
 enable  
 configure terminal  
 
