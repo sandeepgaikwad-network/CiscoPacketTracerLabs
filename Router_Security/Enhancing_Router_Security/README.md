@@ -8,6 +8,8 @@ Configure SSH access on the HYD router to secure remote management and verify co
 
 ![Enhancing Router Security Topology](Enhancing_Router_Security.png)
 
+## ⚙️Configuration Steps
+
 # 🔴 HYD Router
 enable  
 configure terminal  
