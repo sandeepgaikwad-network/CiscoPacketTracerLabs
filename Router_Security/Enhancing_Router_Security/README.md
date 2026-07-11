@@ -67,7 +67,7 @@ Thank you for following along and building your skills in networking.
 
 ---
 ## ✍️ Author's Note
-Prepared and documented by Sandeep Gaikwad for CCNA lab practice and GitHub repository organization.
+Prepared and documented by **Sandeep Gaikwad** for CCNA lab practice and GitHub repository organization.
 
 ---
 ## ✅ Closing
