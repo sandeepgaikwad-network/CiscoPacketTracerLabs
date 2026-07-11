@@ -4,7 +4,7 @@
 
 Configure **static routing manually** between routers and verify end-to-end connectivity between different networks.
 
-Static routing means routes are **manually configured by the administrator** and do not change automatically. 【1-b8790c】
+Static routing means routes are **manually configured by the administrator** and do not change automatically.
 
 ---
 
@@ -34,86 +34,92 @@ Static routing means routes are **manually configured by the administrator** and
 
 ### Step 1: Configure Interfaces
 
-```bash
-
 #### CHE Router
 
-conf t
-hostname CHE
+conf t  
+hostname CHE  
 
-interface g0/0
-ip address 192.168.201.1 255.255.255.0
-no shutdown
+interface g0/0  
+ip address 192.168.201.1 255.255.255.0  
+no shutdown  
 
-interface s0/0/0
-ip address 172.16.0.1 255.255.255.252
-no shutdown
+interface s0/0/0  
+ip address 172.16.0.1 255.255.255.252  
+no shutdown  
 
-interface s0/0/1
-ip address 172.18.0.2 255.255.255.252
-no shutdown
+interface s0/0/1  
+ip address 172.18.0.2 255.255.255.252  
+no shutdown  
 
-## HYD Router
-conf t
-hostname HYD
+### HYD Router  
+conf t  
+hostname HYD  
 
-interface g0/0
-ip address 192.168.202.1 255.255.255.0
-no shutdown
+interface g0/0  
+ip address 192.168.202.1 255.255.255.0  
+no shutdown  
 
-interface s0/0/0
-ip address 172.16.0.2 255.255.255.252
-no shutdown
+interface s0/0/0  
+ip address 172.16.0.2 255.255.255.252  
+no shutdown  
 
-interface s0/0/1
-ip address 172.17.0.1 255.255.255.252
-no shutdown
+interface s0/0/1  
+ip address 172.17.0.1 255.255.255.252  
+no shutdown  
 
-## BAN Router
-conf t
-hostname BAN
+### BAN Router
+conf t  
+hostname BAN  
 
-interface g0/0
-ip address 192.168.203.1 255.255.255.0
-no shutdown
+interface g0/0  
+ip address 192.168.203.1 255.255.255.0  
+no shutdown  
 
-interface s0/0/0
-ip address 172.18.0.1 255.255.255.252
-no shutdown
+interface s0/0/0  
+ip address 172.18.0.1 255.255.255.252  
+no shutdown  
 
-interface s0/0/1
-ip address 172.17.0.2 255.255.255.252
-no shutdown
+interface s0/0/1  
+ip address 172.17.0.2 255.255.255.252  
+no shutdown  
 
-🚀 Step 2: Configure Static Routes
-👉 Static route syntax:
+## Configure Static Routes
+👉 Static route syntax:  
 ip route <destination-network> <subnet-mask> <next-hop>
 
-CHE Router Static Routing
-ip route 192.168.202.0 255.255.255.0 172.16.0.2
-ip route 192.168.203.0 255.255.255.0 172.18.0.1
+## CHE Router Static Routing
+ip route 192.168.202.0 255.255.255.0 172.16.0.2  
+ip route 192.168.203.0 255.255.255.0 172.18.0.1  
 
-HYD Router Static Routing
-ip route 192.168.201.0 255.255.255.0 172.16.0.1
-ip route 192.168.203.0 255.255.255.0 172.17.0.2
+## HYD Router Static Routing
+ip route 192.168.201.0 255.255.255.0 172.16.0.1  
+ip route 192.168.203.0 255.255.255.0 172.17.0.2  
 
-BAN Router Static Routing
-ip route 192.168.201.0 255.255.255.0 172.18.0.2
-ip route 192.168.202.0 255.255.255.0 172.17.0.1
+## BAN Router Static Routing
+ip route 192.168.201.0 255.255.255.0 172.18.0.2  
+ip route 192.168.202.0 255.255.255.0 172.17.0.1  
 
-✅ Step 3: Verification
-
-Check Routing Table
+## Verification
+**Check Routing Table**
 show ip route
 
-Look for:
-S 192.168.x.x
+**Expected: Look for: S 192.168.x.x*
 
-Test Connectivity
-From CHE:
+**Test Connectivity**
+From CHE:  
 ping 192.168.203.1
 
-From BAN:
+From BAN:  
 ping 192.168.201.1
 
+---
+## 🙏 Acknowledgment
+- This lab guide is part of the CCNA practice series. Thank you for following along and building your skills in networking.
 
+---
+## ✍️ Author's Note
+- Prepared and documented by **Sandeep Gaikwad** for CCNA lab practice and GitHub repository organization.
+
+---
+## ✅ Closing
+- Thank you for reviewing this lab manual. Keep practicing consistently — networking mastery comes with hands-on repetition.
