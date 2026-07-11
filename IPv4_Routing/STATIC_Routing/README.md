@@ -84,6 +84,8 @@ ip address 172.17.0.2 255.255.255.252
 no shutdown  
 
 ## Configure Static Routes
+👉 Static route syntax:  
+ip route (destination-network) (subnet-mask) (next-hop)
 
 ### CHE Router Static Routing
 ip route 192.168.202.0 255.255.255.0 172.16.0.2  
