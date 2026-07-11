@@ -59,6 +59,8 @@ ping 192.168.201.10
 show running-config  
 **✅ Hostname, passwords, and interface settings confirmed.**
 
+## Troubleshooting
+
 |           Issue          |             Solution                |
 | ------------------------ | ----------------------------------- |
 | Interface down/down      | Use ``no ``shutdown``               |
