@@ -5,12 +5,13 @@
 Manually configure an IP address, subnet mask, and default gateway on a PC in Cisco Packet Tracer.
 
 ---
+## 🖼️ Lab Topology
+
+![Network Communication Topology](Network_Communication_IPv4.png) 
 
 ## ⚙️ Configuration Steps
 
-```bash
-
-### Step 1: Select the PC
+### Step 1: Select the PC  
 - Click on the PC in Packet Tracer.
 
 ### Step 2: Open Desktop Tab
@@ -27,10 +28,12 @@ Manually configure an IP address, subnet mask, and default gateway on a PC in Ci
 
 ### Step 5: Follow the same step in another PC in different network ie.. 192.168.202.0/24
 
-✅ Verification
-ping 192.168.1.1 → Successful reply confirms connectivity to router.
-ping <other PC IP> → Confirms LAN communication.
-ping <other network PC IP> → Confirms that 2 networks are having communication with the help of router
+## ✅ Verification
+ping 192.168.1.1 → Successful reply confirms connectivity to router.  
+ping <other PC IP> → Confirms LAN communication.  
+ping <other network PC IP> → Confirms that 2 networks are having communication with the help of router  
+
+## Troubleshooting
 
 |    Issue        |              Solution             |
 | --------------- | --------------------------------- |
@@ -38,12 +41,24 @@ ping <other network PC IP> → Confirms that 2 networks are having communication
 | No connectivity | Ensure cables are correct         |
 | Wrong subnet    | Verify subnet mask matches router |
 
-🌍 Real-World Use Case
-Assigning static IPs in small office/home networks
-Preparing PCs for router/switch connectivity tests
-Lab practice for CCNA initial setups
+## 🌍 Real-World Use Case
+- Assigning static IPs in small office/home networks
+- Preparing PCs for router/switch connectivity tests
+- Lab practice for CCNA initial setups
 
-🎯 Outcome
-PC configured with IP, subnet mask, and gateway
-Verified connectivity with router and LAN devices
-Learned manual IP assignment in Packet Tracer
+## 🎯 Outcome
+- PC configured with IP, subnet mask, and gateway
+- Verified connectivity with router and LAN devices
+- Learned manual IP assignment in Packet Tracer
+
+---
+## 🙏 Acknowledgment
+- This lab guide is part of the CCNA practice series. Thank you for following along and building your skills in networking.
+
+---
+## ✍️ Author's Note
+- Prepared and documented by **Sandeep Gaikwad** for CCNA lab practice and GitHub repository organization.
+
+---
+## ✅ Closing
+- Thank you for reviewing this lab manual. Keep practicing consistently — networking mastery comes with hands-on repetition.
