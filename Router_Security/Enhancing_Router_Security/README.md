@@ -8,28 +8,28 @@ Configure SSH access on the HYD router to secure remote management and verify co
 
 ![Enhancing Router Security Topology](Enhancing_Router_Security.png)
 
-### 🔴 HYD Router
+# 🔴 HYD Router
 enable
 configure terminal
 
-# Step 1: Configure hostname and domain
+### Step 1: Configure hostname and domain
 hostname HYD
 ip domain-name ccna-lab.com
 
-# Step 2: Generate RSA keys for SSH
+### Step 2: Generate RSA keys for SSH
 crypto key generate rsa
 1024
 
-# Step 3: Create local user for SSH
+### Step 3: Create local user for SSH
 username admin privilege 15 secret ccna
 
-# Step 4: Configure VTY lines for SSH
+### Step 4: Configure VTY lines for SSH
 line vty 0 4
 transport input ssh
 login local
 exit
 
-# Step 5: Enable SSH version 2
+### Step 5: Enable SSH version 2
 ip ssh version 2
 
 ## ✅ Verification
