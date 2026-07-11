@@ -20,7 +20,7 @@ ip domain-name ccna-lab.com
 crypto key generate rsa  
 1024  
 
-**Step 3: Create local user for SSH
+**Step 3: Create local user for SSH  
 username admin privilege 15 secret ccna
 
 ### Step 4: Configure VTY lines for SSH
