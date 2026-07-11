@@ -33,13 +33,13 @@ exit
 ip ssh version 2
 
 ## ✅ Verification
-ssh -l admin 192.168.201.1
+ssh -l admin 192.168.201.1  
 ✅ Router should prompt for password and allow secure login.
 
-show ip ssh
+show ip ssh  
 ✅ Confirms SSH is enabled and running.
 
-show running-config
+show running-config  
 Verify SSH configuration, user account, and RSA keys.
 
 ## Common SSH Issues and Solutions
@@ -51,18 +51,19 @@ Verify SSH configuration, user account, and RSA keys.
 | Still allows Telnet  | Ensure `transport input ssh` is set on VTY lines       |
 
 ## 🌍 Real-World Use Case
-Secure router management using encrypted sessions
-Prevent unauthorized access via Telnet
+Secure router management using encrypted sessions  
+Prevent unauthorized access via Telnet  
 Enforce best practices in enterprise network security
 
 ## 🎯 Outcome
-Configured SSH server on HYD router
-Verified secure remote login from PC
+Configured SSH server on HYD router  
+Verified secure remote login from PC  
 Ensured encrypted communication for router management
 
 ---
 ## 🙏 Acknowledgment
-This lab guide is part of the CCNA practice series. Thank you for following along and building your skills in networking.
+This lab guide is part of the CCNA practice series.   
+Thank you for following along and building your skills in networking.
 
 ---
 ## ✍️ Author's Note
@@ -70,4 +71,5 @@ Prepared and documented by Sandeep Gaikwad for CCNA lab practice and GitHub repo
 
 ---
 ## ✅ Closing
-Thank you for reviewing this lab manual. Keep practicing consistently — networking mastery comes with hands-on repetition.
+Thank you for reviewing this lab manual.   
+Keep practicing consistently — networking mastery comes with hands-on repetition.
