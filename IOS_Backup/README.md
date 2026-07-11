@@ -23,34 +23,34 @@ Perform IOS backup and restore using TFTP and FTP servers, ensuring router confi
 
 **HYD Router**
 
-**Backup IOS to TFTP Server**  
+**Backup IOS to TFTP Server**   
 
 copy flash: tftp:  
 Enter TFTP server IP (192.168.202.100)  
 Enter destination filename  
 
 
-**Restore IOS from TFTP server to router.**  
+**Restore IOS from TFTP server to router.**   
 
 copy tftp: flash:  
 Enter TFTP server IP  
 Enter source filename  
 
-**Backup IOS to FTP server.**
+**Backup IOS to FTP server.**  
 
 copy flash: ftp:  
 Enter FTP server IP (192.168.202.200)  
 Enter username/password  
 Enter destination filename  
 
-**Restore IOS from FTP server to router.**
+**Restore IOS from FTP server to router.**  
 
 copy ftp: flash:  
 Enter FTP server IP  
 Enter credentials  
 Enter source filename  
 
-**Verify IOS Image**
+**Verify IOS Image**  
 
 dir flash:  
 boot system flash:<filename>  
@@ -60,10 +60,10 @@ reload
 Check Flash Contents  
 dir flash:  
 
-**Check Boot Configuration**
+**Check Boot Configuration**  
 show running-config
 
-**Test Reload**    
+**Test Reload**      
 Router should boot with the restored IOS image.
 
 ## Troubleshooting
