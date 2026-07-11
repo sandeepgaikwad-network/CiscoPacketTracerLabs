@@ -21,55 +21,52 @@ Perform IOS backup and restore using TFTP and FTP servers, ensuring router confi
 
 ## ⚙️ Configuration Steps
 
-```bash
+**HYD Router**
 
-Backup IOS to TFTP
-Copy IOS image from router to TFTP server.
+**Backup IOS to TFTP Server**  
 
-copy flash: tftp:
-Enter TFTP server IP (192.168.202.100)
-Enter destination filename
+copy flash: tftp:  
+Enter TFTP server IP (192.168.202.100)  
+Enter destination filename  
 
 
-Restore IOS from TFTP
-Retrieve IOS image from TFTP server to router.
+**Restore IOS from TFTP server to router.**  
 
-copy tftp: flash:
-Enter TFTP server IP
-Enter source filename
+copy tftp: flash:  
+Enter TFTP server IP  
+Enter source filename  
 
-Backup IOS to FTP
-Copy IOS image from router to FTP server.
+**Backup IOS to FTP server.**
 
-copy flash: ftp:
-Enter FTP server IP (192.168.202.200)
-Enter username/password
-Enter destination filename
+copy flash: ftp:  
+Enter FTP server IP (192.168.202.200)  
+Enter username/password  
+Enter destination filename  
 
-Restore IOS from FTP
-Retrieve IOS image from FTP server to router.
+**Restore IOS from FTP server to router.**
 
-copy ftp: flash:
-Enter FTP server IP
-Enter credentials
-Enter source filename
+copy ftp: flash:  
+Enter FTP server IP  
+Enter credentials  
+Enter source filename  
 
-Verify IOS Image
-Check that IOS image is correctly stored and restored.
+**Verify IOS Image**
 
-dir flash:
-boot system flash:<filename>
-reload
+dir flash:  
+boot system flash:<filename>  
+reload  
 
-✅ Verification
-Check Flash Contents
-dir flash:
+## ✅ Verification
+Check Flash Contents  
+dir flash:  
 
-Check Boot Configuration
+**Check Boot Configuration**
 show running-config
 
-Test Reload  
+**Test Reload**    
 Router should boot with the restored IOS image.
+
+## Troubleshooting
 
 |            Issue        |               Solution               |
 | ----------------------- | ------------------------------------ |
@@ -78,12 +75,24 @@ Router should boot with the restored IOS image.
 | IOS copy fails          | Ensure enough flash memory available |
 | Router boots old IOS    | Update boot system statement         |
 
-🌍 Real-World Use Case
-Enterprise backup of router IOS images
-Disaster recovery planning
-Version control of IOS software
+## 🌍 Real-World Use Case
+- Enterprise backup of router IOS images
+- Disaster recovery planning
+- Version control of IOS software
 
-🎯 Outcome
-Understood IOS backup and restore process
-Practiced TFTP and FTP server usage
-Ensured router resilience with backup strategy
+## 🎯 Outcome
+- Understood IOS backup and restore process
+- Practiced TFTP and FTP server usage
+- Ensured router resilience with backup strategy
+
+---
+## 🙏 Acknowledgment
+- This lab guide is part of the CCNA practice series. Thank you for following along and building your skills in networking.
+
+---
+## ✍️ Author's Note
+- Prepared and documented by Sandeep Gaikwad for CCNA lab practice and GitHub repository organization.
+
+---
+## ✅ Closing
+- Thank you for reviewing this lab manual. Keep practicing consistently — networking mastery comes with hands-on repetition.
