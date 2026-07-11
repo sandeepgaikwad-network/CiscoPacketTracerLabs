@@ -51,7 +51,7 @@ network 172.17.0.0 0.0.255.255
 network 172.18.0.0 0.0.0.255.255  
 
 ## ✅ Verification
-**Check EIGRP Neighbors**
+**Check EIGRP Neighbors**  
 show ip eigrp neighbors
 
 *✅ Expected: Neighbor relationships should be formed*
@@ -61,7 +61,7 @@ show ip route
 
 **✅ Expected:Routes should appear with D (EIGRP) code*
 
-**Test Connectivity**
+**Test Connectivity**  
 ping 192.168.202.1  
 ping 192.168.203.1
 
