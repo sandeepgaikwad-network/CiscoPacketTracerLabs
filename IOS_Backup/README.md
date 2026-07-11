@@ -52,7 +52,7 @@ boot system flash:<filename>
 reload  
 
 ## ✅ Verification
-Check Flash Contents  
+**Check Flash Contents**    
 dir flash:  
 
 **Check Boot Configuration**  
