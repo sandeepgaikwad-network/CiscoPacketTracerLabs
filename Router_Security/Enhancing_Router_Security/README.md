@@ -12,7 +12,7 @@ Configure SSH access on the HYD router to secure remote management and verify co
 enable  
 configure terminal  
 
-### Step 1: Configure hostname and domain
+### Step 1: Configure hostname and domain  
 hostname HYD  
 ip domain-name ccna-lab.com  
 
