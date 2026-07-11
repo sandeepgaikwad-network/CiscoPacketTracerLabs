@@ -56,7 +56,7 @@ show ip interface brief
 ping 192.168.201.10  
 **✅ Successful ping to PC.**
 
-show running-config
+show running-config  
 **✅ Hostname, passwords, and interface settings confirmed.**
 
 |           Issue          |             Solution                |
