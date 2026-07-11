@@ -26,7 +26,7 @@ Manually configure an IP address, subnet mask, and default gateway on a PC in Ci
 - Open **Command Prompt** in Desktop tab.
 - Run: ping 192.168.201.1
 
-### Step 5: Follow the same step in another PC in different network ie.. 192.168.202.0/24
+### Step 5: Follow the same steps in another PC in different network ie.. 192.168.202.0/24
 
 ## ✅ Verification
 ping 192.168.1.1 → Successful reply confirms connectivity to router.  
