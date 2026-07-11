@@ -66,7 +66,7 @@ network 172.18.0.0 0.0.255.255 area 0
 **Check OSPF Neighbors**  
 show ip ospf neighbor
 
-**✅Expected: ✔ All neighbors should be in FULL state*
+**✅Expected: All neighbors should be in FULL state*
 
 **Check Routing Table**  
 show ip route
@@ -82,7 +82,7 @@ show ip ospf database
 ping 192.168.202.1  
 ping 192.168.203.1
 
-**✅Expected ✔ All networks reachable*
+**✅Expected All networks reachable*
 
 ## 🛠️ Troubleshooting
 
