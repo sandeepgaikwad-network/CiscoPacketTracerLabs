@@ -24,49 +24,47 @@ Configure OSPF (Open Shortest Path First) in a single area (Area 0) and verify n
 
 ## ⚙️ Configuration Steps
 
-```bash
+### 🔴 CHE Router (Area 0)
 
-### 🔴 **CHE Router (Area 0)**
+conf t  
+router ospf 1  
+network 192.168.201.0 0.0.0.255 area 0  
+network 172.16.0.0 0.0.255.255 area 0  
+network 172.18.0.0 0.0.255.255 area 0  
 
-conf t
-router ospf 1
-network 192.168.201.0 0.0.0.255 area 0
-network 172.16.0.0 0.0.255.255 area 0
-network 172.18.0.0 0.0.255.255 area 0
+### 🔵 HYD Router (Area 0)
 
-🔵 HYD Router (Area 0)
+conf t  
+router ospf 1  
+network 192.168.202.0 0.0.0.255 area 0  
+network 172.16.0.0 0.0.255.255 area 0  
+network 172.17.0.0 0.0.0.3 area 0  
 
-conf t
-router ospf 1
-network 192.168.202.0 0.0.0.255 area 0
-network 172.16.0.0 0.0.255.255 area 0
-network 172.17.0.0 0.0.0.3 area 0
+### 🔵 BAN Router (Area 0)
 
-🔵 BAN Router (Area 0)
-conf t
-router ospf 1
-network 192.168.203.0 0.0.0.255 area 0
-network 172.17.0.0 0.0.255.255 area 0
-network 172.18.0.0 0.0.255.255 area 0
+conf t  
+router ospf 1  
+network 192.168.203.0 0.0.0.255 area 0  
+network 172.17.0.0 0.0.255.255 area 0  
+network 172.18.0.0 0.0.255.255 area 0  
 
-✅ Verification
-🔍 Check OSPF Neighbors
+## ✅ Verification  
+**Check OSPF Neighbors**  
+show ip ospf neighbor  
 
-show ip ospf neighbor
-✅ Expected: Neighbors should be in FULL state
+**✅ Expected: Neighbors should be in FULL state*
 
-📊 Check Routing Table
+**Check Routing Table**  
+show ip route  
+**✅ Expected: Routes appear with O (OSPF)*
 
-show ip route
-✅ Expected: Routes appear with O (OSPF)
+**🌐 Test Connectivity**  
+ping 192.168.202.1    
+ping 192.168.203.1  
+**✅ All networks reachable*
 
-🌐 Test Connectivity
+## 🛠️ Troubleshooting
 
-ping 192.168.202.1
-ping 192.168.203.1
-✅ All networks reachable
-
-🛠️ Troubleshooting
 | Issue              | Solution                          |
 | ------------------ | --------------------------------- |
 | No neighbor formed | Check Area mismatch               |
@@ -74,14 +72,24 @@ ping 192.168.203.1
 | OSPF down          | Check `no shutdown` on interfaces |
 | Ping not working   | Verify IP addressing              |
 
-🌍 Real-World Use Case
+## 🌍 Real-World Use Case  
+- Enterprise internal routing  
+- Large-scale networks  
+- Fast convergence environments
 
-Enterprise internal routing
-Large-scale networks
-Fast convergence environments
+## 🎓 Outcome
+- Configured OSPF in single area
+- Verified neighbor relationships
+- Understood routing behavior
 
-🎓 Outcome
+---
+## 🙏 Acknowledgment
+- This lab guide is part of the CCNA practice series. Thank you for following along and building your skills in networking.
 
-Configured OSPF in single area
-Verified neighbor relationships
-Understood routing behavior
+---
+## ✍️ Author's Note
+- Prepared and documented by **Sandeep Gaikwad** for CCNA lab practice and GitHub repository organization.
+
+---
+## ✅ Closing
+- Thank you for reviewing this lab manual. Keep practicing consistently — networking mastery comes with hands-on repetition.
