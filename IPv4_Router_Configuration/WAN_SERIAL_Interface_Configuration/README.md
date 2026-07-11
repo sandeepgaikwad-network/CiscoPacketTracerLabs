@@ -30,57 +30,55 @@ Configure and verify WAN serial interfaces between routers, ensuring proper DCE/
 
 ## ⚙️ Configuration Steps
 
-```bash
-
 ### 🔴 CHE Router
-conf t
-interface s0/0/0
-ip address 172.16.0.1 255.255.255.0
-clock rate 64000   # if DCE
-no shutdown
-exit
+conf t  
+interface s0/0/0  
+ip address 172.16.0.1 255.255.255.0  
+clock rate 64000   # if DCE  
+no shutdown  
+exit  
 
-interface s0/0/1
-ip address 172.18.0.2 255.255.255.0
-no shutdown
-exit
+interface s0/0/1  
+ip address 172.18.0.2 255.255.255.0  
+no shutdown  
+exit  
 
 ### 🔵 HYD Router
-conf t
-interface s0/0/0
-ip address 172.17.0.1 255.255.255.0
-clock rate 64000   # if DCE
-no shutdown
-exit
+conf t  
+interface s0/0/0  
+ip address 172.17.0.1 255.255.255.0  
+clock rate 64000   # if DCE  
+no shutdown  
+exit  
 
-interface s0/0/1
-ip address 172.16.0.2 255.255.255.0
-no shutdown
-exit
+interface s0/0/1  
+ip address 172.16.0.2 255.255.255.0  
+no shutdown  
+exit  
 
 ### 🔵 BAN Router
-conf t
-interface s0/0/0
-ip address 172.18.0.1 255.255.255.0
-clock rate 64000   # if DCE
-no shutdown
-exit
+conf t  
+interface s0/0/0  
+ip address 172.18.0.1 255.255.255.0  
+clock rate 64000   # if DCE  
+no shutdown  
+exit  
 
-interface s0/0/1
-ip address 172.17.0.2 255.255.255.0
-no shutdown
-exit
+interface s0/0/1  
+ip address 172.17.0.2 255.255.255.0  
+no shutdown  
+exit  
 
-✅ Verification
-show ip interface brief
-✅ Interfaces should show up/up with correct IPs.
+## ✅ Verification
+show ip interface brief  
+**✅ Interfaces should show up/up with correct IPs.**
 
-ping 192.168.202.1
-ping 192.168.203.1
-✅ Successful ping confirms WAN connectivity.
+ping 192.168.202.1  
+ping 192.168.203.1  
+**✅ Successful ping confirms WAN connectivity.**
 
-show controllers serial 0/0/0
-✅ Confirms whether interface is DCE or DTE.
+show controllers serial 0/0/0  
+**✅ Confirms whether interface is DCE or DTE.**
 
 # Common Router Issues and Solutions
 
@@ -91,12 +89,24 @@ show controllers serial 0/0/0
 | Clock rate missing   | Configure clock rate on DCE side        |
 | Wrong subnet         | Check subnet mask consistency           |
 
-🌍 Real-World Use Case
-WAN connectivity between branch offices
-Serial link configuration in legacy networks
-Foundation for dynamic routing protocols (RIP, EIGRP, BGP)
+## 🌍 Real-World Use Case
+- WAN connectivity between branch offices
+- Serial link configuration in legacy networks
+- Foundation for dynamic routing protocols (RIP, EIGRP, BGP)
 
-🎯 Outcome
-Configured WAN serial interfaces
-Verified DCE/DTE setup and IP addressing
-Achieved connectivity across routers and LANs
+## 🎯 Outcome
+- Configured WAN serial interfaces
+- Verified DCE/DTE setup and IP addressing
+- Achieved connectivity across routers and LANs
+
+---
+## 🙏 Acknowledgment
+- This lab guide is part of the CCNA practice series. Thank you for following along and building your skills in networking.
+
+---
+## ✍️ Author's Note
+- Prepared and documented by **Sandeep Gaikwad** for CCNA lab practice and GitHub repository organization.
+
+---
+## ✅ Closing
+- Thank you for reviewing this lab manual. Keep practicing consistently — networking mastery comes with hands-on repetition.
