@@ -100,17 +100,29 @@ ip route 192.168.201.0 255.255.255.0 172.18.0.2
 ip route 192.168.202.0 255.255.255.0 172.17.0.1  
 
 ## Verification
-**Check Routing Table**
+**Check Routing Table**  
 show ip route
 
 **Expected: Look for: S 192.168.x.x*
 
-**Test Connectivity**
+**Test Connectivity**  
 From CHE:  
 ping 192.168.203.1
 
 From BAN:  
 ping 192.168.201.1
+
+## 🌍 Real-World Use Case
+- Small office/home networks
+- Branch office connectivity
+- Simple point-to-point links
+- Backup routes in enterprise
+
+## ✅ Outcome
+- Configured Static routes between routers
+- Verified end-to-end connectivity across networks
+- Understood next-hop vs exit interface usage
+- Learned advantages and limitations of static routing
 
 ---
 ## 🙏 Acknowledgment
