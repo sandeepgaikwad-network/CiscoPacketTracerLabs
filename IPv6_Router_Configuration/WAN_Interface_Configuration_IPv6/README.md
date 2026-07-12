@@ -52,7 +52,7 @@ exit
 
 ## ✅ Verification  
 
----
+--
 show ipv6 interface brief  
 **Expected: ✅ Interfaces should display IPv6 addresses and status up/up.*
 
