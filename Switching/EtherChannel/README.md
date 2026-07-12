@@ -9,7 +9,7 @@
 
 ## 🖼️ Lab Topology
 
-![EtherChannel Topology](Etherchannel.png)
+![EtherChannel Topology](EtherChannel.png)
 
 ## Device Interface Table
 
