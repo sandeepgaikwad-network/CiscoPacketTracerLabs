@@ -25,43 +25,44 @@ Configure and verify IPv6 addresses on WAN Ethernet interfaces between routers, 
 
 ## ⚙️ Configuration Steps
 
-```bash
-
 ### 🔴 CHE Router
-conf t
-interface g0/0
-ipv6 address 2001:1111::1/64
-no shutdown
-exit
 
-interface g0/1
-ipv6 address 2001:5555::1/64
-no shutdown
-exit
+conf t  
+interface g0/0  
+ipv6 address 2001:1111::1/64  
+no shutdown  
+exit  
+
+interface g0/1  
+ipv6 address 2001:5555::1/64  
+no shutdown  
+exit  
 
 ### 🔵 HYD Router
-conf t
-interface g0/0
-ipv6 address 2001:2222::1/64
-no shutdown
-exit
+conf t  
+interface g0/0  
+ipv6 address 2001:2222::1/64  
+no shutdown  
+exit  
 
-interface g0/1
-ipv6 address 2001:5555::2/64
-no shutdown
-exit
+interface g0/1  
+ipv6 address 2001:5555::2/64  
+no shutdown  
+exit  
 
-✅ Verification
-show ipv6 interface brief
-✅ Interfaces should display IPv6 addresses and status up/up.
+## ✅ Verification  
+show ipv6 interface brief  
 
-ping 2001:5555::2
-✅ Successful ping confirms WAN connectivity between CHE and HYD.
+**Expected: ✅ Interfaces should display IPv6 addresses and status up/up.*
+
+ping 2001:5555::2  
+
+**Expected: ✅ Successful ping confirms WAN connectivity between CHE and HYD.*
 
 ping 2001:2222::1
-✅ Confirms LAN-to-LAN communication via WAN link.
+**Expected:✅ Confirms LAN-to-LAN communication via WAN link.*
 
-# Common IPv6 Router Issues and Solutions
+## Common IPv6 Router Issues and Solutions
 
 | Issue                | Solution                                |
 |----------------------|-----------------------------------------|
@@ -70,14 +71,27 @@ ping 2001:2222::1
 | Wrong prefix length  | Ensure `/64` subnet mask applied        |
 | PCs not reachable    | Assign IPv6 addresses to PCs            |
 
-🌍 Real-World Use Case
-IPv6 WAN connectivity between branch offices
-Transition labs for IPv4 → IPv6 migration
-Foundation for advanced IPv6 routing protocols (OSPFv3, BGP for IPv6)
+## 🌍 Real-World Use Case
+- IPv6 WAN connectivity between branch offices
+- Transition labs for IPv4 → IPv6 migration
+- Foundation for advanced IPv6 routing protocols (OSPFv3, BGP for IPv6)
 
-🎯 Outcome
-Configured IPv6 addresses on WAN interfaces
-Verified connectivity between routers and LANs
-Learned IPv6 WAN setup and troubleshooting
+## 🎯 Outcome
+- Configured IPv6 addresses on WAN interfaces
+- Verified connectivity between routers and LANs
+- Learned IPv6 WAN setup and troubleshooting
+
+---
+## 🙏 Acknowledgment
+- This lab guide is part of the CCNA practice series. Thank you for following along and building your skills in networking.
+
+---
+## ✍️ Author's Note
+- Prepared and documented by **Sandeep Gaikwad** for CCNA lab practice and GitHub repository organization.
+
+---
+## ✅ Closing
+- Thank you for reviewing this lab manual. Keep practicing consistently — networking mastery comes with hands-on repetition.
+
 
 
