@@ -51,16 +51,20 @@ no shutdown
 exit  
 
 ## ✅ Verification  
+---
 show ipv6 interface brief  
 
 **Expected: ✅ Interfaces should display IPv6 addresses and status up/up.*
-
+---
+---
 ping 2001:5555::2  
 
 **Expected: ✅ Successful ping confirms WAN connectivity between CHE and HYD.*
-
-ping 2001:2222::1
+---
+---
+ping 2001:2222::1  
 **Expected:✅ Confirms LAN-to-LAN communication via WAN link.*
+---
 
 ## Common IPv6 Router Issues and Solutions
 
