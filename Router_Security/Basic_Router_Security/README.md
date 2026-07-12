@@ -12,47 +12,50 @@ Secure router access by configuring password encryption, warning banners, idle-t
 
 ## ⚙️ Configuration Steps
 
-```bash
-
 ### 🔴 HYD Router
-enable
+
+enable  
 configure terminal
 
-# Step 1: Configure Telnet Access
-line vty 0 4
-password ccna
-login
+**Configure Telnet Access**  
+line vty 0 4  
+password ccna  
+login  
 exit
 
-# Step 2: Encrypt all clear text passwords
+**Encrypt all clear text passwords**  
 service password-encryption
 
-# Step 3: Configure Warning Banner
-banner motd ^C
-Unauthorized access is prohibited!
+**Configure Warning Banner**  
+banner motd ^C  
+Unauthorized access is prohibited!  
 ^C
 
-# Step 4: Configure Idle Timeout for Console
-line console 0
-exec-timeout 5 0
+**Configure Idle Timeout for Console**  
+line console 0  
+exec-timeout 5 0  
 exit
 
-# Step 5: Configure Unattended Session Timeout for VTY
-line vty 0 4
-exec-timeout 10 0
+**Configure Unattended Session Timeout for VTY**  
+line vty 0 4  
+exec-timeout 10 0  
 exit
 
-✅ Verification
-telnet 192.168.201.1
-✅ Router should prompt for password.
+## ✅ Verification
+**Access the Router via Telnet**  
+telnet 192.168.201.1  
 
-show running-config
-✅ Passwords should appear encrypted.
+**Expected: ✅ Router should prompt for password.*
 
-# Idle timeout test
+**Check Running/Current Configuration**  
+show running-config  
+
+**Expected: ✅ Passwords should appear encrypted.*
+
+**Idle timeout test**  
 Leave console/VTY session idle → should disconnect after configured time.
 
-# Common Telnet and Line Configuration Issues and Solutions
+## Common Telnet and Line Configuration Issues and Solutions
 
 | Issue                 | Solution                                               |
 |-----------------------|--------------------------------------------------------|
@@ -60,16 +63,16 @@ Leave console/VTY session idle → should disconnect after configured time.
 | Password not encrypted| Ensure `service password-encryption` is enabled        |
 | Timeout not applied   | Check `exec-timeout` values on console/VTY lines       |
 
-🌍 Real-World Use Case
-Prevent unauthorized router access
-Protect passwords from being stored in clear text
-Enforce session timeouts to reduce risk of unattended access
+## 🌍 Real-World Use Case
+- Prevent unauthorized router access
+- Protect passwords from being stored in clear text
+- Enforce session timeouts to reduce risk of unattended - access
 
-🎯 Outcome
-Configured Telnet access with password protection
-Encrypted all router passwords
-Applied warning banner for legal compliance
-Configured idle-timeout and unattended session timeout for security
+## 🎯 Outcome
+- Configured Telnet access with password protection
+- Encrypted all router passwords
+- Applied warning banner for legal compliance
+- Configured idle-timeout and unattended session timeout for security
 
 ---
 ## 🙏 Acknowledgment

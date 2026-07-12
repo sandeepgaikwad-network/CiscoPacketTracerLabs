@@ -21,43 +21,44 @@ Configure a default route on the CHE router to forward all unknown traffic towar
 
 ## ⚙️ Configuration Steps
 
-```bash
-
 ### 🔴 CHE Router
-enable
+
+enable  
 configure terminal
 
-# Configure LAN interface
-interface g0/0
-ip address 192.168.201.1 255.255.255.0
-no shutdown
+**Configure LAN interface**  
+interface g0/0  
+ip address 192.168.201.1 255.255.255.0  
+no shutdown  
 exit
 
-# Configure WAN interface
-interface s0/0/0
-ip address 202.1.0.18 255.255.255.248
-no shutdown
+**Configure WAN interface**  
+interface s0/0/0  
+ip address 202.1.0.18 255.255.255.248  
+no shutdown  
 exit
 
-# Configure Default Route towards ISP
+**Configure Default Route towards ISP**  
 ip route 0.0.0.0 0.0.0.0 202.1.0.17
 
-exit
-write memory
 
 ### 💻 PC Configuration
-IP Address: 192.168.201.10
-Subnet Mask: 255.255.255.0
+IP Address: 192.168.201.10  
+Subnet Mask: 255.255.255.0  
 Default Gateway: 192.168.201.1
 
-✅ Verification
-show ip route
-✅ Default route (S* 0.0.0.0/0) should be present.
+## ✅ Verification
+**Check Routing Table**  
+show ip route  
 
-ping 8.8.8.8
-✅ Successful ping confirms LAN-to-Internet communication.
+**Expected: ✅ Default route (S* 0.0.0.0/0) should be present.*
 
-# Common IPv4 Static Routing Issues and Solutions
+**Test Connectivity**  
+ping 8.8.8.8  
+
+**Expected: ✅ Successful ping confirms LAN-to-Internet communication.*
+
+## Common IPv4 Static Routing Issues and Solutions
 
 | Issue                  | Solution                                |
 |------------------------|-----------------------------------------|
@@ -67,12 +68,24 @@ ping 8.8.8.8
 | Wrong next-hop address | Ensure ISP WAN IP is correct            |
 
 
-🌍 Real-World Use Case
-Small office/home networks connecting to ISP
-Enterprise edge routers forwarding traffic to upstream provider
-Simplified routing when only one exit path exists
+## 🌍 Real-World Use Case
+- Small office/home networks connecting to ISP
+- Enterprise edge routers forwarding traffic to upstream - provider
+- Simplified routing when only one exit path exists
 
-🎯 Outcome
-Configured WAN interface on CHE router
-Added default route to ISP
-Verified LAN-to-Internet communication via default routing
+## 🎯 Outcome
+- Configured WAN interface on CHE router
+- Added default route to ISP
+- Verified LAN-to-Internet communication via default routing
+
+---
+## 🙏 Acknowledgment
+- This lab guide is part of the CCNA practice series. Thank you for following along and building your skills in networking.
+
+---
+## ✍️ Author's Note
+- Prepared and documented by **Sandeep Gaikwad** for CCNA lab practice and GitHub repository organization.
+
+---
+## ✅ Closing
+- Thank you for reviewing this lab manual. Keep practicing consistently — networking mastery comes with hands-on repetition.

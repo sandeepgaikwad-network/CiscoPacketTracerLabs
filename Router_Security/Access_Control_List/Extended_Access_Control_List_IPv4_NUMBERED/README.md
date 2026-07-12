@@ -27,46 +27,52 @@ Deny HYD network from pinging CHE network (192.168.201.0/24).
 
 ## ⚙️ Configuration Steps
 
-```bash
-
 ### 🔴 HYD Router
-enable
+
+enable  
 configure terminal
 
-# Create Numbered Extended ACL
+**Create Numbered Extended ACL**    
 access-list 110 deny tcp 192.168.202.0 0.0.0.255 host 192.168.203.10 eq 80
 access-list 110 deny icmp 192.168.202.0 0.0.0.255 192.168.201.0 0.0.0.255
 access-list 110 permit ip any any
 
-# Apply ACL outbound towards BAN
-interface s0/0/0
-ip access-group 110 out
+**Apply ACL outbound towards BAN**   
+interface s0/0/0  
+ip access-group 110 out  
 exit
 
-# Apply ACL outbound towards CHE
-interface s0/0/1
-ip access-group 110 out
+**Apply ACL outbound towards CHE**  
+interface s0/0/1  
+ip access-group 110 out  
 exit
 
 ### 💻 PC Configuration
-HYD PCs: 192.168.202.x, Gateway: 192.168.202.1  
-CHE PCs: 192.168.201.x, Gateway: 192.168.201.1  
-BAN HTTP Server: 192.168.203.10, Gateway: 192.168.203.1  
+HYD PCs: **192.168.202.x**, Gateway: **192.168.202.1**  
+CHE PCs: **192.168.201.x**, Gateway: **192.168.201.1**  
+BAN HTTP Server: **192.168.203.10**, Gateway: **192.168.203.1**  
 
-✅ Verification
+## ✅ Verification
+**Test Connectivity**  
 ping 192.168.201.10
-❌ HYD PCs should be denied (ICMP blocked).
 
-telnet 192.168.203.10 80
-❌ HYD PCs should be denied (HTTP blocked).
+**Expected: ❌ HYD PCs should be denied (ICMP blocked).*
 
-ping 192.168.203.10
-✅ HYD PCs should still be able to ping BAN server (ICMP allowed unless explicitly denied).
+ping 192.168.203.10  
 
+**Expected: ✅ HYD PCs should still be able to ping BAN server (ICMP allowed unless explicitly denied).*
+
+**Telnet to Host**  
+telnet 192.168.203.10 80  
+
+**Expected: ❌ HYD PCs should be denied (HTTP blocked).*
+
+**Check Access List**  
 show access-lists
-✅ Displays ACL entries and hit counts.
 
-# Common IPv4 ACL Issues and Solutions
+**Expected: ✅ Displays ACL entries and hit counts.*
+
+## Common IPv4 ACL Issues and Solutions
 
 | Issue               | Solution                                         |
 |---------------------|--------------------------------------------------|
@@ -74,13 +80,25 @@ show access-lists
 | All traffic blocked | Ensure `permit ip any any` is included           |
 | No ACL hits         | Confirm ACL applied to correct interface         |
 
-🌍 Real-World Use Case
-Restricting access to specific services (HTTP, FTP, etc.)
-Enforcing security policies between branch networks
-Controlling ICMP traffic to prevent unnecessary pings
+## 🌍 Real-World Use Case
+- Restricting access to specific services (HTTP, FTP, etc.)
+- Enforcing security policies between branch networks
+- Controlling ICMP traffic to prevent unnecessary pings
 
-🎯 Outcome
-Configured Numbered Extended ACL on HYD router
-Denied HYD PCs from accessing BAN HTTP server
-Denied HYD PCs from pinging CHE network
-Verified ACL functionality with service-specific tests
+## 🎯 Outcome
+- Configured Numbered Extended ACL on HYD router
+- Denied HYD PCs from accessing BAN HTTP server
+- Denied HYD PCs from pinging CHE network
+- Verified ACL functionality with service-specific tests
+
+---
+## 🙏 Acknowledgment
+- This lab guide is part of the CCNA practice series. Thank you for following along and building your skills in networking.
+
+---
+## ✍️ Author's Note
+- Prepared and documented by **Sandeep Gaikwad** for CCNA lab practice and GitHub repository organization.
+
+---
+## ✅ Closing
+- Thank you for reviewing this lab manual. Keep practicing consistently — networking mastery comes with hands-on repetition.

@@ -24,37 +24,40 @@ Configure and apply a Named Standard ACL on HYD router so that only host 192.168
 
 ## ⚙️ Configuration Steps
 
-```bash
-
 ### 🔴 HYD Router
-enable
+enable  
 configure terminal
 
-# Create Named Standard ACL
-ip access-list standard BAN_TO_HYD
- permit host 192.168.203.10
- deny any
+**Create Named Standard ACL**  
+ip access-list standard BAN_TO_HYD  
+ permit host 192.168.203.10  
+ deny any  
 exit
 
-# Apply ACL inbound on HYD LAN interface
-interface g0/0
-ip access-group BAN_TO_HYD in
+**Apply ACL inbound on HYD LAN interface**  
+interface g0/0  
+ip access-group BAN_TO_HYD in  
 exit
 
 ### 💻 PC Configuration
-HYD PCs: 192.168.202.x, Gateway: 192.168.202.1  
-BAN Host: 192.168.203.10, Gateway: 192.168.203.1  
-Other BAN PCs: 192.168.203.x, Gateway: 192.168.203.1  
+HYD PCs: **192.168.202.x**, Gateway: **192.168.202.1**  
+BAN Host: **192.168.203.10**, Gateway: **192.168.203.1**  
+Other BAN PCs: **192.168.203.x**, Gateway: **192.168.203.1**  
 
-✅ Verification
+## ✅ Verification
+**Test Connectivity**  
 ping 192.168.202.10
-✅ From 192.168.203.10 → Should succeed.
-❌ From other BAN PCs → Should fail.
 
+**Expected:  
+✅ From 192.168.203.10 → Should succeed.  
+❌ From other BAN PCs → Should fail.*
+
+**Check Access List**  
 show access-lists
-✅ Displays ACL entries and hit counts.
 
-# Common IPv4 ACL Issues and Solutions
+**Expected: ✅ Displays ACL entries and hit counts.*
+
+## Common IPv4 ACL Issues and Solutions
 
 | Issue             | Solution                                                   |
 |-------------------|------------------------------------------------------------|
@@ -62,16 +65,16 @@ show access-lists
 | All traffic blocked | Ensure correct permit statement for `192.168.203.10`     |
 | No ACL hits       | Confirm traffic is matching ACL (check direction)          |
 
-🌍 Real-World Use Case
-Restricting access so only a specific host can reach a network
-Enforcing host-level security policies
-Simplifying access control with minimal ACL statements
+## 🌍 Real-World Use Case
+- Restricting access so only a specific host can reach a network
+- Enforcing host-level security policies
+- Simplifying access control with minimal ACL statements
 
-🎯 Outcome
-Configured Named Standard ACL on HYD router
+## 🎯 Outcome
+- Configured Named Standard ACL on HYD router
 Allowed only BAN host (192.168.203.10) to communicate with HYD network
-Denied other BAN hosts from accessing HYD network
-Verified ACL functionality with ping tests
+- Denied other BAN hosts from accessing HYD network
+- Verified ACL functionality with ping tests
 
 ---
 ## 🙏 Acknowledgment

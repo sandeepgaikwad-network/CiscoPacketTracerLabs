@@ -21,51 +21,52 @@ Configure static routes between routers in an IPv6 network and verify communicat
 
 ## ⚙️ Configuration Steps
 
-```bash
-
 ### 🔴 CHE Router
-conf t
-ipv6 unicast-routing
-interface g0/0
-ipv6 address 2001:1111::1/64
-no shutdown
+conf t  
+ipv6 unicast-routing  
+interface g0/0  
+ipv6 address 2001:1111::1/64  
+no shutdown  
 exit
 
-interface g0/1
-ipv6 address 2001:5555::1/64
-no shutdown
+interface g0/1  
+ipv6 address 2001:5555::1/64  
+no shutdown  
 exit
 
-# Static route to HYD LAN
+**Static route to HYD LAN**  
 ipv6 route 2001:2222::/64 2001:5555::2
 
 ### 🔵 HYD Router
-conf t
-ipv6 unicast-routing
-interface g0/0
-ipv6 address 2001:2222::1/64
-no shutdown
+
+conf t  
+ipv6 unicast-routing  
+interface g0/0  
+ipv6 address 2001:2222::1/64  
+no shutdown  
 exit
 
-interface g0/1
-ipv6 address 2001:5555::2/64
-no shutdown
+interface g0/1  
+ipv6 address 2001:5555::2/64  
+no shutdown  
 exit
 
-# Static route to CHE LAN
+**Static route to CHE LAN**
 ipv6 route 2001:1111::/64 2001:5555::1
 
-✅ Verification
-Check Routing Table
-show ipv6 route
-✅ Expected: Static routes should appear with S (Static) code.
+## ✅ Verification  
+**Check Routing Table*  
+show ipv6 route  
 
-Test Connectivity
-ping 2001:2222::1
-ping 2001:1111::1
-✅ Successful ping confirms communication across IPv6 networks.
+**✅ Expected: Static routes should appear with S (Static) code.*
 
-# Common IPv6 Static Routing Issues and Solutions
+**Test Connectivity**  
+ping 2001:2222::1  
+ping 2001:1111::1  
+
+**Expected: ✅ Successful ping confirms communication across IPv6 networks.*
+
+## Common IPv6 Static Routing Issues and Solutions
 
 | Issue                | Solution                                |
 |----------------------|-----------------------------------------|
@@ -74,12 +75,24 @@ ping 2001:1111::1
 | Interfaces down      | Use `no shutdown`                       |
 | Wrong prefix length  | Ensure `/64` subnet mask applied        |
 
-🌍 Real-World Use Case
-Small IPv6 networks without dynamic routing protocols
-Backup routes in enterprise networks
-Simple WAN connectivity between branch offices
+## 🌍 Real-World Use Case
+- Small IPv6 networks without dynamic routing protocols
+- Backup routes in enterprise networks
+- Simple WAN connectivity between branch offices
 
-🎯 Outcome
-Configured static routes on IPv6 routers
-Verified connectivity between LANs via WAN link
-Learned manual route setup and troubleshooting
+## 🎯 Outcome
+- Configured static routes on IPv6 routers
+- Verified connectivity between LANs via WAN link
+- Learned manual route setup and troubleshooting
+
+---
+## 🙏 Acknowledgment
+- This lab guide is part of the CCNA practice series. Thank you for following along and building your skills in networking.
+
+---
+## ✍️ Author's Note
+- Prepared and documented by **Sandeep Gaikwad** for CCNA lab practice and GitHub repository organization.
+
+---
+## ✅ Closing
+- Thank you for reviewing this lab manual. Keep practicing consistently — networking mastery comes with hands-on repetition.

@@ -10,39 +10,46 @@ Configure SSH access on the HYD router to secure remote management and verify co
 
 ## ⚙️Configuration Steps
 
-**HYD Router**  
+## HYD Router  
 enable  
 configure terminal  
 
-**Step 1: Configure hostname and domain**    
+**Configure hostname and domain**    
 hostname HYD    
 ip domain-name ccna-lab.com    
 
-**Step 2: Generate RSA keys for SSH**  
+**Generate RSA keys for SSH**  
 crypto key generate rsa  
 1024  
 
-**Step 3: Create local user for SSH**  
+**Create local user for SSH**  
 username admin privilege 15 secret ccna
 
-**Step 4: Configure VTY lines for SSH**  
+**Configure VTY lines for SSH**  
 line vty 0 4  
 transport input ssh  
 login local  
 exit  
 
-**Step 5: Enable SSH version 2**  
+**Enable SSH version 2**  
 ip ssh version 2
 
 ## ✅ Verification
+
+** Login the Router via SSH  
 ssh -l admin 192.168.201.1  
-**✅ Router should prompt for password and allow secure login.**
 
+**Expected: ✅ Router should prompt for password and allow secure login.*
+
+**Verify SSH Configuration**  
 show ip ssh  
-**✅ Confirms SSH is enabled and running.**
 
+**Expected: ✅ Confirms SSH is enabled and running.*
+
+**Verify Running/Current Configuration**  
 show running-config  
-**Verify SSH configuration, user account, and RSA keys.**
+
+**Expected: User account, and RSA keys.*
 
 ## Common SSH Issues and Solutions
 
