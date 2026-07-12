@@ -67,13 +67,13 @@ show ospfv3 ipv6 neighbors
 
 **✅ Expected: Neighbor relationship established between CHE and HYD.*
 
-**Check Routing Table**
+**Check Routing Table**  
 show ipv6 route ospf
 
 **✅ Expected: Routes should appear with O (OSPF) code.*
 
-**Test Connectivity**
-ping 2001:2222::1  
+**Test Connectivity**  
+ping 2001:2222::1     
 ping 2001:1111::1  
 
 **Expected: ✅ Successful ping confirms communication across IPv6 networks.*
