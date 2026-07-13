@@ -63,5 +63,5 @@ Contributions are welcome! Fork the repository, make your changes, and submit a 
 ## 📬 Contact
 For collaboration or queries, reach out at:
 - Email: sandeepgaikwad.network@gmail.com
-- [LinkedIn](https://www.linkedin.com/in/sandeep-gaikwad-6437963b6)
+- LinkedIn Profile: [LinkedIn](https://www.linkedin.com/in/sandeep-gaikwad-6437963b6)
 
