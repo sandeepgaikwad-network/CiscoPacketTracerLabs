@@ -34,7 +34,7 @@ Each folder includes:
 ## 🚀 How to Use
 
 1. Clone the repository:  
-   git clone https://github.com/yourusername/ccna-labs.git
+   git clone https://github.com/sandeepgaikwad-network/CiscoPacketTracerLabs.git
    
 2. Open .pkt files in Cisco Packet Tracer.
 
@@ -46,8 +46,7 @@ Each folder includes:
 
 ## 👤 Author
 **Sandeep Gaikwad**  
-📧 Email: sandeepgaikwad.network@gmail.com  
-🔗 [LinkedIn](https:www.linkedin.com/in/sandeep-gaikwad-6437963b6)
+📧 Email: sandeepgaikwad.network@gmail.com 
 
 ---
 
@@ -63,5 +62,4 @@ Contributions are welcome! Fork the repository, make your changes, and submit a 
 ## 📬 Contact
 For collaboration or queries, reach out at:
 - Email: sandeepgaikwad.network@gmail.com
-- LinkedIn Profile: [LinkedIn](https://www.linkedin.com/in/sandeep-gaikwad-6437963b6)
 
