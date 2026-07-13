@@ -1,73 +1,67 @@
-## 📘 Static Routing Lab
+# 📘 CCNA Lab Manual Repository
 
-🔹 Manual routing configuration between routers.
-
-### 🔗 Quick Access
-
-- 📄 [Lab Manual](IPv4_Routing/STATIC_Routing/README.md)
-- 🧪 [Download PKT](IPv4_Routing/STATIC_Routing/STATIC_Routing.pkt)
-- 🖼️ [View Topology](IPv4_Routing/STATIC_Routing/STATIC_Routing.png)
-
-### 🖼️ Preview
-
-[![Static Routing Lab](IPv4_Routing/STATIC_Routing/STATIC_Routing.png)](IPv4_Routing/STATIC_Routing/README.md)
-
-✅ **Covers:** Static routing, verification, troubleshooting
+This repository contains a complete set of **CCNA practical labs**, organized by topic.  
+Each folder includes:
+- Cisco Packet Tracer files (.pkt)
+- Network topology diagrams (.png)
+- Step‑by‑step lab manuals (README.md)
 
 ---
 
-### 🌐 BGP Routing Lab
+## 🗂 Grouped Lab Index
 
-- 📄 [Lab Manual](IPv4_Routing/BGP/README.md)
-- 🧪 [Download PKT](IPv4_Routing/BGP/BGP.pkt)
-- 🖼️ [View Topology](IPv4_Routing/BGP/bgp.png)
+### 🔹 Router Configuration Labs
+- [IPv4 Router Configuration](./IPv4_Router_Configuration)
+- [IPv6 Router Configuration](./IPv6_Router_Configuration)
 
-### 🖼️ Preview
+### 🔹 Routing Labs
+- [IPv4 Routing](./IPv4_Routing)
+- [IPv6 Routing](./IPv6_Routing)
 
-[![BGP Routing Lab](IPv4_Routing/BGP/bgp.png)](IPv4_Routing/BGP/README.md)
+### 🔹 Router Services & Backup
+- [Router Services](./Router_Services)
+- [IOS Backup](./IOS_Backup)
 
-✅ **Covers:** BGP configuration, neighbor establishment, route advertisement, troubleshooting
+### 🔹 NAT & Security
+- [NAT](./NAT)
+- [Router Security](./Router_Security)
 
----
-
-### ⚡ EIGRP Routing Lab
-
-- 📄 [Lab Manual](IPv4_Routing/EIGRP/README.md)  
-- 🧪 [Download PKT](IPv4_Routing/EIGRP/EIGRP.pkt)  
-- 🖼️ [View Topology](IPv4_Routing/EIGRP/EIGRP.png)  
-
-### 🖼️ Preview
-
-[![EIGRP Routing Lab](IPv4_Routing/EIGRP/EIGRP.png)](IPv4_Routing/EIGRP/README.md)
-
-✅ **Covers:** EIGRP configuration, neighbor formation, route learning, troubleshooting
+### 🔹 Switching Labs
+- [Switching](./Switching)
 
 ---
 
-### 🔵 OSPF (Single Area) Lab
+## 🚀 How to Use
 
-- 📄 [Lab Manual](IPv4_Routing/OSPF/README.md)
-- 🧪 [Download PKT](IPv4_Routing/OSPF/OSPF.pkt)
-- 🖼️ [View Topology](IPv4_Routing/OSPF/OSPF.png)
+1. Clone the repository:  
+   git clone https://github.com/yourusername/ccna-labs.git
+   
+2. Open .pkt files in Cisco Packet Tracer.
 
-#### 🖼️ Preview
+3. Follow the lab manual (README.md) inside each folder.
 
-[![OSPF Routing Lab](IPv4_Routing/OSPF/OSPF.png)](IPv4_Routing/OSPF/README.md)
+## 📋 Prerequisites
+- Cisco Packet Tracer installed
+- Basic CCNA networking knowledge
 
-✅ **Covers:** OSPF configuration (Area 0), neighbor formation, routing table verification, troubleshooting
-
----
-
-### 🌐 OSPF (Multi-Area) Lab
-
-- 📄 [Lab Manual](IPv4_Routing/OSPF_MultiArea/README.md)
-- 🧪 [Download PKT](IPv4_Routing/OSPF_MultiArea/OSPF_MultiArea.pkt)
-- 🖼️ [View Topology](IPv4_Routing/OSPF_MultiArea/OSPF_MultiArea.png)
-
-### 🖼️ Preview
-
-[![OSPF Multi-Area Lab](IPv4_Routing/OSPF_MultiArea/OSPF_MultiArea.png)](IPv4_Routing/OSPF_MultiArea/README.md)
-
-✅ **Covers:** Multi-area OSPF configuration (Area 0 backbone), ABR setup, inter-area routing, neighbor formation, troubleshooting
+## 👤 Author
+**Sandeep Gaikwad**  
+📧 Email: sandeepgaikwad.network@gmail.com  
+🔗 [LinkedIn](https:www.linkedin.com/in/sandeep-gaikwad-6437963b6)
 
 ---
+
+## 🙌 Acknowledgments
+Special thanks to Cisco Networking Academy, online resources, and the CCNA community for guidance and inspiration.
+
+## 📜 License
+This project is licensed under the MIT License — feel free to use, share, and modify with attribution.
+
+## 🤝 Contributing
+Contributions are welcome! Fork the repository, make your changes, and submit a pull request.
+
+## 📬 Contact
+For collaboration or queries, reach out at:
+- Email: sandeepgaikwad.network@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/sandeep-gaikwad-6437963b6)
+
