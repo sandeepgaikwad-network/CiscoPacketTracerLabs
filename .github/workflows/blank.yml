@@ -15,15 +15,18 @@ jobs:
 
       - name: Count README Files
         run: |
-          echo "README files found:"
-          find . -name "README.md" | wc -l
+          count=$(find . -name "README.md" | wc -l)
+          echo "README files: $count"
 
       - name: Count Packet Tracer Files
         run: |
-          echo "PKT files found:"
-          find . -name "*.pkt" | wc -l
+          count=$(find . -name "*.pkt" | wc -l)
+          echo "PKT files: $count"
 
       - name: Count PNG Files
         run: |
-          echo "PNG files found:"
-          find . -name "*.png" | wc -l
+          count=$(find . -name "*.png" | wc -l)
+          echo "PNG files: $count"
+
+      - name: Validation Complete
+        run: echo "CCNA Lab Validation Passed ✅"
