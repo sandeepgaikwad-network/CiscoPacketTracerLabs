@@ -17,34 +17,28 @@ jobs:
         run: |
           failed=0
 
-          for dir in $(find . -type d ! -path! "*/.*");do
+          while IFS= read -r pktfile; do
+            folder=$(dirname "$pktfile")
 
-            pkt_count=$(find "$dir" -maxdepth 1 -name "*.pkt" | wc -l)
+            echo "Checking folder: $folder"
 
-            if [ "$pkt_count" -gt 0 ]; then
-
-              readme_count=$(find "$dir" -maxdepth 1 -name "README.md" | wc -l)
-              png_count=$(find "$dir" -maxdepth 1 -name "*.png" | wc -l)
-
-              echo "Checking: $dir"
-
-              if [ "$readme_count" -eq 0 ]; then
-                echo "README.md missing in $dir"
-                failed=1
-              fi
-
-              if [ "$png_count" -eq 0 ]; then
-                echo "PNG file missing in $dir"
-                failed=1
-              fi
-
+            if [ ! -f "$folder/README.md" ]; then
+              echo "ERROR: README.md missing in $folder"
+              failed=1
             fi
 
-          done
+            png_count=$(find "$folder" -maxdepth 1 -name "*.png" | wc -l)
+
+            if [ "$png_count" -eq 0 ]; then
+              echo "ERROR: PNG file missing in $folder"
+              failed=1
+            fi
+
+          done < <(find . -name "*.pkt")
 
           if [ "$failed" -eq 1 ]; then
-            echo "Validation failed"
+            echo "Validation failed."
             exit 1
           fi
 
-          echo "All lab folders passed validation"
+          echo "All lab folders passed validation."
