@@ -29,9 +29,15 @@ jobs:
 
           echo "PKT files found: $count"
 
-      - name: Count PNG Files
+      - name: Validate PNG Files
         run: |
           count=$(find . -name "*.png" | wc -l)
+
+          if [ "$count" -eq 0 ]; then
+            echo "No PNG files found!"
+            exit 1
+          fi
+
           echo "PNG files found: $count"
 
       - name: Validation Complete
