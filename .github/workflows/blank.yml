@@ -16,17 +16,23 @@ jobs:
       - name: Count README Files
         run: |
           count=$(find . -name "README.md" | wc -l)
-          echo "README files: $count"
+          echo "README files found: $count"
 
-      - name: Count Packet Tracer Files
+      - name: Validate Packet Tracer Files
         run: |
           count=$(find . -name "*.pkt" | wc -l)
-          echo "PKT files: $count"
+
+          if [ "$count" -eq 0 ]; then
+            echo "No Packet Tracer files found!"
+            exit 1
+          fi
+
+          echo "PKT files found: $count"
 
       - name: Count PNG Files
         run: |
           count=$(find . -name "*.png" | wc -l)
-          echo "PNG files: $count"
+          echo "PNG files found: $count"
 
       - name: Validation Complete
-        run: echo "CCNA Lab Validation Passed ✅"
+        run: echo "CCNA Lab Validation Passed"
