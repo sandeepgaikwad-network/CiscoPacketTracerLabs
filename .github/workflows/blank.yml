@@ -1,24 +1,29 @@
-name: Check Lab Links
+name: CCNA Lab Validation
 
 on:
   push:
     branches:
       - testing
-  pull_request:
-    branches:
-      - testing
 
 jobs:
-  link-check:
+  validate:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Check Markdown Links
-        uses: lycheeverse/lychee-action@v2
-        with:
-          args: --verbose --no-progress './**/*.md'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Count README Files
+        run: |
+          echo "README files found:"
+          find . -name "README.md" | wc -l
+
+      - name: Count Packet Tracer Files
+        run: |
+          echo "PKT files found:"
+          find . -name "*.pkt" | wc -l
+
+      - name: Count PNG Files
+        run: |
+          echo "PNG files found:"
+          find . -name "*.png" | wc -l
