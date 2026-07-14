@@ -13,32 +13,38 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Count README Files
+      - name: Validate Lab Folders
         run: |
-          count=$(find . -name "README.md" | wc -l)
-          echo "README files found: $count"
+          failed=0
 
-      - name: Validate Packet Tracer Files
-        run: |
-          count=$(find . -name "*.pkt" | wc -l)
+          for dir in $(find . -type d ! -path! "*/.*");do
 
-          if [ "$count" -eq 0 ]; then
-            echo "No Packet Tracer files found!"
+            pkt_count=$(find "$dir" -maxdepth 1 -name "*.pkt" | wc -l)
+
+            if [ "$pkt_count" -gt 0 ]; then
+
+              readme_count=$(find "$dir" -maxdepth 1 -name "README.md" | wc -l)
+              png_count=$(find "$dir" -maxdepth 1 -name "*.png" | wc -l)
+
+              echo "Checking: $dir"
+
+              if [ "$readme_count" -eq 0 ]; then
+                echo "README.md missing in $dir"
+                failed=1
+              fi
+
+              if [ "$png_count" -eq 0 ]; then
+                echo "PNG file missing in $dir"
+                failed=1
+              fi
+
+            fi
+
+          done
+
+          if [ "$failed" -eq 1 ]; then
+            echo "Validation failed"
             exit 1
           fi
 
-          echo "PKT files found: $count"
-
-      - name: Validate PNG Files
-        run: |
-          count=$(find . -name "*.png" | wc -l)
-
-          if [ "$count" -eq 0 ]; then
-            echo "No PNG files found!"
-            exit 1
-          fi
-
-          echo "PNG files found: $count"
-
-      - name: Validation Complete
-        run: echo "CCNA Lab Validation Passed"
+          echo "All lab folders passed validation"
