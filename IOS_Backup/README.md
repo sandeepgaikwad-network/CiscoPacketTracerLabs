@@ -1,3 +1,15 @@
+# IOS Backup Labs  
+
+Explore backup methods using **TFTP & FTP**.
+
+---
+
+## 📂 Files
+- [Packet Tracer Lab (.pkt)](IOS_Backup_with_TFTP&FTP.pkt)
+- [Lab Diagram (.png)](IOS_Backup_with_TFTP&FTP.png)
+
+---
+
 # 💾 IOS Backup Lab (CCNA)
 
 ## 🎯 Objective
