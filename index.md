@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/295784588?v=4" width="150" height="150" style="border-radius:50%">
+</p>
+
+
 # 👋 Hi, I'm Sandeep Gaikwad  
 
 🚀 **Cloud & Network Engineer | Azure Networking | CCNA | Automation Enthusiast | Aspiring DevOps Engineer**  
