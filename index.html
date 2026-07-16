@@ -1,26 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>My Cisco Labs</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>My Networking Labs</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   </head>
-  <body>
-    <header>
-      <h1>Welcome to My Networking Labs</h1>
-    </header>
-    <nav>
-      <ul>
-        <li><a href="IOS_Backup/">IOS Backup Labs</a></li>
-        <li><a href="IPv4_Routing/">IPv4 Routing Labs</a></li>
-        <li><a href="IPv6_Routing/">IPv6 Routing Labs</a></li>
-        <li><a href="NAT/">NAT Labs</a></li>
-        <li><a href="Router_Security/">Router Security Labs</a></li>
-        <li><a href="Switching/">Switching Labs</a></li>
-      </ul>
+  <body class="bg-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Cisco Packet Tracer Labs</a>
+      </div>
     </nav>
-    <main>
-      <h2>Choose a lab from the sidebar</h2>
-      <p>This site contains Packet Tracer labs with configs, diagrams, and documentation.</p>
-    </main>
+
+    <!-- Main Content -->
+    <div class="container mt-4">
+      <h1 class="text-center text-primary mb-4">Welcome to My Networking Labs</h1>
+      <div class="row">
+        <!-- IOS Backup Card -->
+        <div class="col-md-4">
+          <div class="card shadow-sm mb-4">
+            <div class="card-body">
+              <h5 class="card-title">IOS Backup Labs</h5>
+              <p class="card-text">Explore backup methods using TFTP & FTP.</p>
+              <a href="IOS_Backup/" class="btn btn-primary">Open Lab</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more cards for other labs -->
+        <div class="col-md-4">
+          <div class="card shadow-sm mb-4">
+            <div class="card-body">
+              <h5 class="card-title">IPv4 Routing Labs</h5>
+              <p class="card-text">Practice routing configurations with IPv4.</p>
+              <a href="IPv4_Routing/" class="btn btn-primary">Open Lab</a>
+            </div>
+          </div>
+        </div>
+        <!-- Example extra card -->
+        <div class="col-md-4">
+          <div class="card shadow-sm mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Switching Labs</h5>
+              <p class="card-text">Learn VLANs, trunking, and switch security.</p>
+              <a href="Switching/" class="btn btn-primary">Open Lab</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
